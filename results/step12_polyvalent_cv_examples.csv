@@ -1,0 +1,16 @@
+resume_id,role,seniority,skills,n_skill_communities,skill_community_entropy,skill_community_entropy_normalized,degree,community_global
+R_001321,Financial Analyst,Senior,"['Reporting', 'Forecasting', 'KPIs', 'Excel', 'Valuation']",4,1.3321790402101223,0.9609640474436812,9,1
+R_000320,Junior Accountant,Junior,"['KPIs', 'Financial Modeling', 'Excel', 'Forecasting', 'Valuation']",4,1.3321790402101223,0.9609640474436812,8,1
+R_003314,FP&A Analyst,Junior,"['Variance Analysis', 'KPIs', 'Forecasting', 'Financial Modeling', 'Excel']",4,1.3321790402101223,0.9609640474436812,8,1
+R_006425,Financial Analyst,Junior,"['KPIs', 'Forecasting', 'Excel', 'Financial Modeling', 'Accounting']",4,1.3321790402101223,0.9609640474436812,8,1
+R_007323,FP&A Analyst,Senior,"['Variance Analysis', 'Excel', 'Financial Modeling', 'KPIs', 'Forecasting']",4,1.3321790402101223,0.9609640474436812,8,1
+R_004666,Financial Analyst,Senior,"['KPIs', 'Forecasting', 'Accounting', 'Excel', 'Valuation']",4,1.3321790402101223,0.9609640474436812,7,1
+R_004684,Junior Accountant,Junior,"['Cash Flow', 'Excel', 'Valuation', 'Reporting', 'Forecasting']",4,1.3321790402101223,0.9609640474436812,7,1
+R_006367,Junior Accountant,Mid,"['Valuation', 'Forecasting', 'Excel', 'Reporting', 'Budgeting']",4,1.3321790402101223,0.9609640474436812,7,1
+R_007709,Junior Accountant,Junior,"['KPIs', 'Budgeting', 'Excel', 'Variance Analysis', 'Forecasting']",4,1.3321790402101223,0.9609640474436812,7,1
+R_001091,Financial Analyst,Mid,"['Forecasting', 'Variance Analysis', 'Budgeting', 'Excel', 'Reporting']",4,1.3321790402101223,0.9609640474436812,6,1
+R_001788,FP&A Analyst,Mid,"['Valuation', 'Accounting', 'Forecasting', 'Excel', 'Reporting']",4,1.3321790402101223,0.9609640474436812,6,1
+R_002059,FP&A Analyst,Junior,"['Variance Analysis', 'Reporting', 'Budgeting', 'Excel', 'Forecasting']",4,1.3321790402101223,0.9609640474436812,6,1
+R_002830,FP&A Analyst,Junior,"['Variance Analysis', 'Reporting', 'Excel', 'Forecasting', 'Accounting']",4,1.3321790402101223,0.9609640474436812,6,1
+R_006163,Financial Analyst,Senior,"['Variance Analysis', 'Valuation', 'Reporting', 'Excel', 'Forecasting']",4,1.3321790402101223,0.9609640474436812,6,1
+R_007374,Junior Accountant,Senior,"['Accounting', 'Excel', 'KPIs', 'Valuation', 'Forecasting']",4,1.3321790402101223,0.9609640474436812,6,1

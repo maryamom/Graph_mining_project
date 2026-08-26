@@ -1,0 +1,4 @@
+method,k,precision_at_k,recall_at_k,hit_rate_at_k,n_jobs_evaluated,n_predictions,n_hits,consensus_precision,consensus_recall,consensus_f1,coverage
+Semantic cosine,50,0.002838119017894299,0.04362618816426557,0.1344153141905951,2403,,,,,,
+Katz tronqué L=5,50,0.0032542655014565127,0.04992337620302664,0.1489804411152726,2403,,,,,,
+Consensus Semantic∩Katz,50,,,,2403,5024.0,18.0,0.0035828025477707007,0.0024,0.002874480996486745,0.8876404494382022

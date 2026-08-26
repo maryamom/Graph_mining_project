@@ -1,0 +1,6 @@
+task,method,feature_family,graph_version,validation_macro_f1,validation_balanced_accuracy,test_macro_f1,test_accuracy,test_balanced_accuracy
+CV seniority,Logistic Regression,SEMANTIC,invariant,0.8681133836191236,0.8686430659603704,0.8769031897315346,0.8773333333333333,0.8776744821775878
+CV specialization proxy,Logistic Regression,STRUCTURAL,original,0.9393819920161648,0.9600389863547758,0.9393256564667998,0.9453333333333334,0.9594714634687986
+Job seniority,Random Forest,STRUCTURAL,original,0.3553576116845611,0.35684124283103297,0.2989121877549229,0.2986666666666667,0.2993234493836874
+Job industry,Logistic Regression,SEMANTIC,invariant,1.0,1.0,1.0,1.0,1.0
+Job specialization proxy,Logistic Regression,STRUCTURAL,original,0.8359845785006155,0.9035714285714286,0.8981531776208582,0.9146666666666666,0.942652329749104

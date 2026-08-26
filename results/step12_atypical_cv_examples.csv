@@ -1,0 +1,16 @@
+resume_id,role,seniority,skills,community_global,degree,pagerank,degree_delta,atypical_reason
+R_006412,Operations Manager,Mid,"['KPIs', 'Asana', 'Timeline Management', 'Cross-functional Coordination', 'Stakeholder Communication', 'Process Improvement', 'Jira', 'Project Planning']",6,27,0.0001511033775759,14,high degree within community
+R_008878,Business Development Manager,Junior,"['Pipeline Management', 'Lead Generation', 'Outbound Outreach', 'Closing', 'Prospecting', 'Forecasting', 'Discovery Calls', 'Account Management']",4,23,0.0001351748835348,11,high degree within community
+R_008703,Business Development Manager,Mid,"['Outbound Outreach', 'Forecasting', 'Account Management', 'Negotiation', 'CRM', 'Discovery Calls', 'Pipeline Management', 'Prospecting']",4,22,0.0001306862258116,5,high degree within community
+R_007153,Technical Product Manager,Junior,"['Analytics', 'User Research', 'Stakeholder Management', 'Scrum', 'Roadmap', 'A/B Testing', 'PRD', 'Product Strategy']",2,22,0.0001412591168851,8,high degree within community
+R_008358,Customer Success Associate,Senior,"['Root Cause Analysis', 'Zendesk', 'SLA', 'Documentation', 'Ticketing', 'Communication', 'Escalations', 'Intercom']",7,22,0.0001233486714628,13,high degree within community
+R_004339,Business Development Manager,Mid,"['Account Management', 'Forecasting', 'Discovery Calls', 'CRM', 'Outbound Outreach', 'Pipeline Management', 'Lead Generation', 'Negotiation']",4,22,0.0001297212113176,8,high degree within community
+R_005180,Junior Accountant,Junior,"['Excel', 'Valuation', 'Budgeting', 'Forecasting', 'Accounting']",1,1,1.744268490839487e-05,0,low non-isolated degree within community
+R_001764,Marketing Manager,Mid,"['Copywriting', 'Email Marketing', 'Meta Ads', 'A/B Testing', 'Landing Pages']",5,1,1.8075850200353864e-05,0,low non-isolated degree within community
+R_007980,Product Manager,Mid,"['Roadmap', 'PRD', 'Scrum', 'Product Strategy', 'Stakeholder Management']",2,1,1.835011319649805e-05,0,low non-isolated degree within community
+R_007973,Financial Analyst,Junior,"['Reporting', 'Budgeting', 'Forecasting', 'Cash Flow', 'Variance Analysis']",1,1,1.751267768293139e-05,0,low non-isolated degree within community
+R_007913,Data Analyst,Senior,"['Excel', 'SQL', 'Pandas', 'Power BI', 'Tableau']",3,1,1.754538642789482e-05,0,low non-isolated degree within community
+R_007880,Marketing Manager,Senior,"['Conversion Optimization', 'Copywriting', 'Google Ads', 'Landing Pages', 'Email Marketing']",5,1,1.7881080488515176e-05,0,low non-isolated degree within community
+R_006396,Junior Accountant,Mid,"['Budgeting', 'Reporting', 'Valuation', 'Forecasting', 'Excel', 'Financial Modeling', 'Variance Analysis']",1,16,9.313930701204987e-05,41,largest enrichment degree gain
+R_007520,Junior Accountant,Mid,"['Forecasting', 'Excel', 'Reporting', 'Cash Flow', 'KPIs', 'Variance Analysis', 'Financial Modeling', 'Valuation']",1,18,0.0001042168522392,40,largest enrichment degree gain
+R_002011,Customer Support Specialist,Mid,"['Communication', 'Escalations', 'Customer Satisfaction', 'Documentation', 'Ticketing', 'Root Cause Analysis', 'Troubleshooting', 'SLA']",7,20,0.000113438291126,23,largest enrichment degree gain

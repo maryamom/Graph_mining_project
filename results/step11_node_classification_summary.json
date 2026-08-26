@@ -1,0 +1,754 @@
+{
+  "seed": 42,
+  "class_distributions": [
+    {
+      "task": "CV seniority",
+      "label": "Junior",
+      "count": 3372,
+      "proportion": 0.3372,
+      "n_examples": 10000,
+      "n_classes": 3
+    },
+    {
+      "task": "CV seniority",
+      "label": "Mid",
+      "count": 3365,
+      "proportion": 0.3365,
+      "n_examples": 10000,
+      "n_classes": 3
+    },
+    {
+      "task": "CV seniority",
+      "label": "Senior",
+      "count": 3263,
+      "proportion": 0.3263,
+      "n_examples": 10000,
+      "n_classes": 3
+    },
+    {
+      "task": "CV specialization proxy",
+      "label": "specialized",
+      "count": 6841,
+      "proportion": 0.6841,
+      "n_examples": 10000,
+      "n_classes": 2
+    },
+    {
+      "task": "CV specialization proxy",
+      "label": "generalist",
+      "count": 3159,
+      "proportion": 0.3159,
+      "n_examples": 10000,
+      "n_classes": 2
+    },
+    {
+      "task": "Job seniority",
+      "label": "Junior",
+      "count": 855,
+      "proportion": 0.342,
+      "n_examples": 2500,
+      "n_classes": 3
+    },
+    {
+      "task": "Job seniority",
+      "label": "Mid",
+      "count": 825,
+      "proportion": 0.33,
+      "n_examples": 2500,
+      "n_classes": 3
+    },
+    {
+      "task": "Job seniority",
+      "label": "Senior",
+      "count": 820,
+      "proportion": 0.328,
+      "n_examples": 2500,
+      "n_classes": 3
+    },
+    {
+      "task": "Job industry",
+      "label": "Healthcare",
+      "count": 290,
+      "proportion": 0.116,
+      "n_examples": 2500,
+      "n_classes": 10
+    },
+    {
+      "task": "Job industry",
+      "label": "FinTech",
+      "count": 279,
+      "proportion": 0.1116,
+      "n_examples": 2500,
+      "n_classes": 10
+    },
+    {
+      "task": "Job industry",
+      "label": "SaaS",
+      "count": 271,
+      "proportion": 0.1084,
+      "n_examples": 2500,
+      "n_classes": 10
+    },
+    {
+      "task": "Job industry",
+      "label": "Logistics",
+      "count": 248,
+      "proportion": 0.0992,
+      "n_examples": 2500,
+      "n_classes": 10
+    },
+    {
+      "task": "Job industry",
+      "label": "Cybersecurity",
+      "count": 247,
+      "proportion": 0.0988,
+      "n_examples": 2500,
+      "n_classes": 10
+    },
+    {
+      "task": "Job industry",
+      "label": "Travel",
+      "count": 243,
+      "proportion": 0.0972,
+      "n_examples": 2500,
+      "n_classes": 10
+    },
+    {
+      "task": "Job industry",
+      "label": "Gaming",
+      "count": 241,
+      "proportion": 0.0964,
+      "n_examples": 2500,
+      "n_classes": 10
+    },
+    {
+      "task": "Job industry",
+      "label": "Retail",
+      "count": 237,
+      "proportion": 0.0948,
+      "n_examples": 2500,
+      "n_classes": 10
+    },
+    {
+      "task": "Job industry",
+      "label": "EdTech",
+      "count": 225,
+      "proportion": 0.09,
+      "n_examples": 2500,
+      "n_classes": 10
+    },
+    {
+      "task": "Job industry",
+      "label": "E-commerce",
+      "count": 219,
+      "proportion": 0.0876,
+      "n_examples": 2500,
+      "n_classes": 10
+    },
+    {
+      "task": "Job specialization proxy",
+      "label": "specialized",
+      "count": 1864,
+      "proportion": 0.7456,
+      "n_examples": 2500,
+      "n_classes": 2
+    },
+    {
+      "task": "Job specialization proxy",
+      "label": "generalist",
+      "count": 636,
+      "proportion": 0.2544,
+      "n_examples": 2500,
+      "n_classes": 2
+    }
+  ],
+  "split_sizes": {
+    "CV seniority": {
+      "train": 7000,
+      "validation": 1500,
+      "test": 1500
+    },
+    "CV specialization proxy": {
+      "train": 7000,
+      "validation": 1500,
+      "test": 1500
+    },
+    "Job seniority": {
+      "train": 1750,
+      "validation": 375,
+      "test": 375
+    },
+    "Job industry": {
+      "train": 1750,
+      "validation": 375,
+      "test": 375
+    },
+    "Job specialization proxy": {
+      "train": 1750,
+      "validation": 375,
+      "test": 375
+    }
+  },
+  "models": {
+    "Dummy": {
+      "strategy": "most_frequent"
+    },
+    "Logistic Regression": {
+      "C": 1.0,
+      "max_iter": 3000,
+      "class_weight": "balanced"
+    },
+    "Random Forest": {
+      "n_estimators": 300,
+      "min_samples_leaf": 2,
+      "class_weight": "balanced_subsample"
+    }
+  },
+  "feature_families": {
+    "structural": [
+      "degree",
+      "bipartite_degree_centrality",
+      "pagerank",
+      "is_isolate",
+      "component_size",
+      "community_size",
+      "community_global"
+    ],
+    "internal_skills": [
+      "n_skills",
+      "n_skill_communities",
+      "dominant_skill_community",
+      "dominant_skill_community_count",
+      "dominant_skill_community_share",
+      "skill_community_entropy",
+      "skill_community_entropy_normalized"
+    ],
+    "semantic_dimension": 384,
+    "all_safe": "concatenation"
+  },
+  "best_validation_configuration_per_task": [
+    {
+      "task": "CV seniority",
+      "method": "Logistic Regression",
+      "feature_family": "SEMANTIC",
+      "graph_version": "invariant",
+      "validation_macro_f1": 0.8681133836191236,
+      "validation_balanced_accuracy": 0.8686430659603704,
+      "test_macro_f1": 0.8769031897315346,
+      "test_accuracy": 0.8773333333333333,
+      "test_balanced_accuracy": 0.8776744821775878
+    },
+    {
+      "task": "CV specialization proxy",
+      "method": "Logistic Regression",
+      "feature_family": "STRUCTURAL",
+      "graph_version": "original",
+      "validation_macro_f1": 0.9393819920161648,
+      "validation_balanced_accuracy": 0.9600389863547758,
+      "test_macro_f1": 0.9393256564667998,
+      "test_accuracy": 0.9453333333333334,
+      "test_balanced_accuracy": 0.9594714634687986
+    },
+    {
+      "task": "Job seniority",
+      "method": "Random Forest",
+      "feature_family": "STRUCTURAL",
+      "graph_version": "original",
+      "validation_macro_f1": 0.3553576116845611,
+      "validation_balanced_accuracy": 0.35684124283103297,
+      "test_macro_f1": 0.2989121877549229,
+      "test_accuracy": 0.2986666666666667,
+      "test_balanced_accuracy": 0.2993234493836874
+    },
+    {
+      "task": "Job industry",
+      "method": "Logistic Regression",
+      "feature_family": "SEMANTIC",
+      "graph_version": "invariant",
+      "validation_macro_f1": 1.0,
+      "validation_balanced_accuracy": 1.0,
+      "test_macro_f1": 1.0,
+      "test_accuracy": 1.0,
+      "test_balanced_accuracy": 1.0
+    },
+    {
+      "task": "Job specialization proxy",
+      "method": "Logistic Regression",
+      "feature_family": "STRUCTURAL",
+      "graph_version": "original",
+      "validation_macro_f1": 0.8359845785006155,
+      "validation_balanced_accuracy": 0.9035714285714286,
+      "test_macro_f1": 0.8981531776208582,
+      "test_accuracy": 0.9146666666666666,
+      "test_balanced_accuracy": 0.942652329749104
+    }
+  ],
+  "original_vs_enriched_deltas": [
+    {
+      "task": "CV seniority",
+      "feature_family": "ALL_SAFE",
+      "original_model": "Logistic Regression",
+      "enriched_model": "Logistic Regression",
+      "delta_macro_f1": 0.0,
+      "delta_accuracy": 0.0
+    },
+    {
+      "task": "CV seniority",
+      "feature_family": "STRUCTURAL",
+      "original_model": "Random Forest",
+      "enriched_model": "Logistic Regression",
+      "delta_macro_f1": -0.03550250377948394,
+      "delta_accuracy": -0.033333333333333326
+    },
+    {
+      "task": "CV specialization proxy",
+      "feature_family": "STRUCTURAL",
+      "original_model": "Logistic Regression",
+      "enriched_model": "Logistic Regression",
+      "delta_macro_f1": 0.0,
+      "delta_accuracy": 0.0
+    },
+    {
+      "task": "Job industry",
+      "feature_family": "ALL_SAFE",
+      "original_model": "Logistic Regression",
+      "enriched_model": "Logistic Regression",
+      "delta_macro_f1": 0.0,
+      "delta_accuracy": 0.0
+    },
+    {
+      "task": "Job industry",
+      "feature_family": "STRUCTURAL",
+      "original_model": "Random Forest",
+      "enriched_model": "Random Forest",
+      "delta_macro_f1": 0.06830827795637856,
+      "delta_accuracy": 0.06933333333333333
+    },
+    {
+      "task": "Job seniority",
+      "feature_family": "ALL_SAFE",
+      "original_model": "Random Forest",
+      "enriched_model": "Random Forest",
+      "delta_macro_f1": 0.006921488883186111,
+      "delta_accuracy": 0.007999999999999952
+    },
+    {
+      "task": "Job seniority",
+      "feature_family": "STRUCTURAL",
+      "original_model": "Random Forest",
+      "enriched_model": "Random Forest",
+      "delta_macro_f1": 0.0013487685417430395,
+      "delta_accuracy": 0.0026666666666666505
+    },
+    {
+      "task": "Job specialization proxy",
+      "feature_family": "STRUCTURAL",
+      "original_model": "Logistic Regression",
+      "enriched_model": "Logistic Regression",
+      "delta_macro_f1": 0.0,
+      "delta_accuracy": 0.0
+    }
+  ],
+  "relational_classifier_results": [
+    {
+      "task": "seniority (CV)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "original",
+      "split": "validation",
+      "iterations": 14,
+      "final_delta": 3.117757441106761e-07,
+      "n_isolates": 29,
+      "accuracy": 0.35551075268817206,
+      "balanced_accuracy": 0.3549151393463607,
+      "macro_f1": 0.3550369984069353,
+      "weighted_f1": 0.3554709864741523,
+      "precision_macro": 0.3556508743854077,
+      "recall_macro": 0.3549151393463607
+    },
+    {
+      "task": "seniority (Job)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "original",
+      "split": "validation",
+      "iterations": 14,
+      "final_delta": 3.117757441106761e-07,
+      "n_isolates": 29,
+      "accuracy": 0.35142118863049093,
+      "balanced_accuracy": 0.35277843201909337,
+      "macro_f1": 0.3501666911528137,
+      "weighted_f1": 0.35047239085553883,
+      "precision_macro": 0.3520331330065843,
+      "recall_macro": 0.35277843201909337
+    },
+    {
+      "task": "seniority (CV)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "original",
+      "split": "test",
+      "iterations": 14,
+      "final_delta": 3.117757441106761e-07,
+      "n_isolates": 29,
+      "accuracy": 0.33003300330033003,
+      "balanced_accuracy": 0.3298582901650277,
+      "macro_f1": 0.3296424570467062,
+      "weighted_f1": 0.32973715321137986,
+      "precision_macro": 0.3306849255372592,
+      "recall_macro": 0.3298582901650277
+    },
+    {
+      "task": "seniority (Job)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "original",
+      "split": "test",
+      "iterations": 14,
+      "final_delta": 3.117757441106761e-07,
+      "n_isolates": 29,
+      "accuracy": 0.35,
+      "balanced_accuracy": 0.3486215538847118,
+      "macro_f1": 0.3485308916771184,
+      "weighted_f1": 0.3494863367390274,
+      "precision_macro": 0.3491441058923434,
+      "recall_macro": 0.3486215538847118
+    },
+    {
+      "task": "seniority (CV)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "enriched",
+      "split": "validation",
+      "iterations": 14,
+      "final_delta": 2.635286189822672e-07,
+      "n_isolates": 29,
+      "accuracy": 0.353494623655914,
+      "balanced_accuracy": 0.35291955709041417,
+      "macro_f1": 0.35294644203082465,
+      "weighted_f1": 0.35325308942395933,
+      "precision_macro": 0.35408637589758074,
+      "recall_macro": 0.35291955709041417
+    },
+    {
+      "task": "seniority (Job)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "enriched",
+      "split": "validation",
+      "iterations": 14,
+      "final_delta": 2.635286189822672e-07,
+      "n_isolates": 29,
+      "accuracy": 0.3669250645994832,
+      "balanced_accuracy": 0.3682808108405169,
+      "macro_f1": 0.3651123768893889,
+      "weighted_f1": 0.3653451161312805,
+      "precision_macro": 0.3666752307545913,
+      "recall_macro": 0.3682808108405169
+    },
+    {
+      "task": "seniority (CV)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "enriched",
+      "split": "test",
+      "iterations": 14,
+      "final_delta": 2.635286189822672e-07,
+      "n_isolates": 29,
+      "accuracy": 0.3326732673267327,
+      "balanced_accuracy": 0.33246462949084526,
+      "macro_f1": 0.33216309472552935,
+      "weighted_f1": 0.33226373877450305,
+      "precision_macro": 0.33310808973025163,
+      "recall_macro": 0.33246462949084526
+    },
+    {
+      "task": "seniority (Job)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "enriched",
+      "split": "test",
+      "iterations": 14,
+      "final_delta": 2.635286189822672e-07,
+      "n_isolates": 29,
+      "accuracy": 0.3611111111111111,
+      "balanced_accuracy": 0.36033138401559456,
+      "macro_f1": 0.36042021943375063,
+      "weighted_f1": 0.36082234569794586,
+      "precision_macro": 0.3610161443494777,
+      "recall_macro": 0.36033138401559456
+    },
+    {
+      "task": "industry (CV)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "original",
+      "split": "validation",
+      "iterations": 14,
+      "final_delta": 7.730015508244925e-07,
+      "n_isolates": 29,
+      "accuracy": 0.09115281501340483,
+      "balanced_accuracy": 0.09141539432488174,
+      "macro_f1": 0.0909216804398423,
+      "weighted_f1": 0.09086946028662246,
+      "precision_macro": 0.09195461538135034,
+      "recall_macro": 0.09141539432488174
+    },
+    {
+      "task": "industry (Job)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "original",
+      "split": "validation",
+      "iterations": 14,
+      "final_delta": 7.730015508244925e-07,
+      "n_isolates": 29,
+      "accuracy": 0.10182767624020887,
+      "balanced_accuracy": 0.10530451731766252,
+      "macro_f1": 0.10315904783137861,
+      "weighted_f1": 0.10026978067599727,
+      "precision_macro": 0.10292276710124026,
+      "recall_macro": 0.10530451731766252
+    },
+    {
+      "task": "industry (CV)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "original",
+      "split": "test",
+      "iterations": 14,
+      "final_delta": 7.730015508244925e-07,
+      "n_isolates": 29,
+      "accuracy": 0.09713905522288756,
+      "balanced_accuracy": 0.09752815006910187,
+      "macro_f1": 0.09626338457379395,
+      "weighted_f1": 0.09612218227156617,
+      "precision_macro": 0.09642506865686232,
+      "recall_macro": 0.09752815006910187
+    },
+    {
+      "task": "industry (Job)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "original",
+      "split": "test",
+      "iterations": 14,
+      "final_delta": 7.730015508244925e-07,
+      "n_isolates": 29,
+      "accuracy": 0.08333333333333333,
+      "balanced_accuracy": 0.08211808487350283,
+      "macro_f1": 0.08247076860395368,
+      "weighted_f1": 0.08453032430494828,
+      "precision_macro": 0.08484568126808215,
+      "recall_macro": 0.08211808487350283
+    },
+    {
+      "task": "industry (CV)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "enriched",
+      "split": "validation",
+      "iterations": 13,
+      "final_delta": 9.822882511834052e-07,
+      "n_isolates": 29,
+      "accuracy": 0.14611260053619302,
+      "balanced_accuracy": 0.14641748990546427,
+      "macro_f1": 0.1459546485670962,
+      "weighted_f1": 0.14594843156468676,
+      "precision_macro": 0.1476608683218903,
+      "recall_macro": 0.14641748990546427
+    },
+    {
+      "task": "industry (Job)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "enriched",
+      "split": "validation",
+      "iterations": 13,
+      "final_delta": 9.822882511834052e-07,
+      "n_isolates": 29,
+      "accuracy": 0.31592689295039167,
+      "balanced_accuracy": 0.31246142527881127,
+      "macro_f1": 0.3134796253759072,
+      "weighted_f1": 0.3171548500709577,
+      "precision_macro": 0.3228022018969177,
+      "recall_macro": 0.31246142527881127
+    },
+    {
+      "task": "industry (CV)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "enriched",
+      "split": "test",
+      "iterations": 13,
+      "final_delta": 9.822882511834052e-07,
+      "n_isolates": 29,
+      "accuracy": 0.1596806387225549,
+      "balanced_accuracy": 0.15970986648320434,
+      "macro_f1": 0.1584450325879242,
+      "weighted_f1": 0.1587407689644469,
+      "precision_macro": 0.15970672370368094,
+      "recall_macro": 0.15970986648320434
+    },
+    {
+      "task": "industry (Job)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "enriched",
+      "split": "test",
+      "iterations": 13,
+      "final_delta": 9.822882511834052e-07,
+      "n_isolates": 29,
+      "accuracy": 0.27419354838709675,
+      "balanced_accuracy": 0.271476973963429,
+      "macro_f1": 0.27175599118296667,
+      "weighted_f1": 0.2766401217162765,
+      "precision_macro": 0.2779419924234078,
+      "recall_macro": 0.271476973963429
+    },
+    {
+      "task": "specialization proxy (CV)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "original",
+      "split": "validation",
+      "iterations": 16,
+      "final_delta": 6.593925083492168e-07,
+      "n_isolates": 29,
+      "accuracy": 0.9287141905396402,
+      "balanced_accuracy": 0.9060233918128655,
+      "macro_f1": 0.9155827192848286,
+      "weighted_f1": 0.9278047474290875,
+      "precision_macro": 0.9273049032776336,
+      "recall_macro": 0.9060233918128655
+    },
+    {
+      "task": "specialization proxy (Job)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "original",
+      "split": "validation",
+      "iterations": 16,
+      "final_delta": 6.593925083492168e-07,
+      "n_isolates": 29,
+      "accuracy": 0.8903743315508021,
+      "balanced_accuracy": 0.9267857142857143,
+      "macro_f1": 0.870981312736115,
+      "weighted_f1": 0.8958578748018516,
+      "precision_macro": 0.8481481481481481,
+      "recall_macro": 0.9267857142857143
+    },
+    {
+      "task": "specialization proxy (CV)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "original",
+      "split": "test",
+      "iterations": 16,
+      "final_delta": 6.593925083492168e-07,
+      "n_isolates": 29,
+      "accuracy": 0.9179790026246719,
+      "balanced_accuracy": 0.8893078682662245,
+      "macro_f1": 0.9016487388580412,
+      "weighted_f1": 0.9165326829674019,
+      "precision_macro": 0.9178173241852488,
+      "recall_macro": 0.8893078682662245
+    },
+    {
+      "task": "specialization proxy (Job)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "original",
+      "split": "test",
+      "iterations": 16,
+      "final_delta": 6.593925083492168e-07,
+      "n_isolates": 29,
+      "accuracy": 0.9145299145299145,
+      "balanced_accuracy": 0.9387362637362637,
+      "macro_f1": 0.8980836236933798,
+      "weighted_f1": 0.9177958446251129,
+      "precision_macro": 0.8759960880904085,
+      "recall_macro": 0.9387362637362637
+    },
+    {
+      "task": "specialization proxy (CV)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "enriched",
+      "split": "validation",
+      "iterations": 16,
+      "final_delta": 5.198770010039766e-07,
+      "n_isolates": 29,
+      "accuracy": 0.9307128580946036,
+      "balanced_accuracy": 0.9091812865497075,
+      "macro_f1": 0.9181020733652312,
+      "weighted_f1": 0.9298992590798054,
+      "precision_macro": 0.9288779012749264,
+      "recall_macro": 0.9091812865497075
+    },
+    {
+      "task": "specialization proxy (Job)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "enriched",
+      "split": "validation",
+      "iterations": 16,
+      "final_delta": 5.198770010039766e-07,
+      "n_isolates": 29,
+      "accuracy": 0.893048128342246,
+      "balanced_accuracy": 0.9285714285714286,
+      "macro_f1": 0.8738191632928476,
+      "weighted_f1": 0.8983163379448209,
+      "precision_macro": 0.8507462686567164,
+      "recall_macro": 0.9285714285714286
+    },
+    {
+      "task": "specialization proxy (CV)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "enriched",
+      "split": "test",
+      "iterations": 16,
+      "final_delta": 5.198770010039766e-07,
+      "n_isolates": 29,
+      "accuracy": 0.9186351706036745,
+      "balanced_accuracy": 0.8903517096023414,
+      "macro_f1": 0.9024980187557786,
+      "weighted_f1": 0.9172296767330514,
+      "precision_macro": 0.9183321736337847,
+      "recall_macro": 0.8903517096023414
+    },
+    {
+      "task": "specialization proxy (Job)",
+      "method": "Relational probabilistic classifier",
+      "feature_family": "RELATIONAL",
+      "graph_version": "enriched",
+      "split": "test",
+      "iterations": 16,
+      "final_delta": 5.198770010039766e-07,
+      "n_isolates": 29,
+      "accuracy": 0.9145299145299145,
+      "balanced_accuracy": 0.9423076923076923,
+      "macro_f1": 0.8986330381209088,
+      "weighted_f1": 0.9179608950498439,
+      "precision_macro": 0.8760330578512396,
+      "recall_macro": 0.9423076923076923
+    }
+  ],
+  "specialization_label_definition": "specialized if exactly one skill community; generalist if more than one",
+  "leakage_controls": {
+    "targets_excluded_from_X": true,
+    "step7_embeddings_used": false,
+    "safe_embeddings_aligned": true,
+    "preprocessing_fit_train_only": true,
+    "test_used_for_selection": false,
+    "specialization_skill_features_used": false,
+    "community_ids_categorical": true,
+    "global_PCA_fitted": false,
+    "GNN_used": false
+  },
+  "enriched_graph_indirect_leakage_warning": true,
+  "classification_started": true,
+  "runtime_seconds": 160.60822980000012,
+  "all_assertions_passed": true
+}

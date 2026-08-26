@@ -1,0 +1,152 @@
+{
+  "dataset_id": "michaelozon/candidate-matching-synthetic",
+  "n_resumes": 10000,
+  "n_skill_nodes": 73,
+  "n_skill_edges": 359,
+  "density": 0.13660578386605784,
+  "n_connected_components": 2,
+  "n_isolates": 0,
+  "average_degree": 9.835616438356164,
+  "average_strength": 5050.958904109589,
+  "edge_weight_statistics": {
+    "min": 458.0,
+    "mean": 513.5376044568245,
+    "median": 512.0,
+    "max": 1021.0,
+    "quantiles": {
+      "0.25": 497.0,
+      "0.5": 512.0,
+      "0.75": 527.0,
+      "0.9": 541.0,
+      "0.95": 548.0999999999999,
+      "0.99": 556.4200000000001
+    }
+  },
+  "graph_is_nearly_complete": false,
+  "missing_possible_edges": 2269,
+  "seeds_tested": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "max_iter": 100,
+  "runs": [
+    {
+      "seed": 0,
+      "converged": true,
+      "iterations": 3,
+      "n_communities": 8,
+      "weighted_modularity": 0.7112542277987153,
+      "smallest_community": 7,
+      "largest_community": 10
+    },
+    {
+      "seed": 1,
+      "converged": true,
+      "iterations": 3,
+      "n_communities": 7,
+      "weighted_modularity": 0.7007243977111673,
+      "smallest_community": 8,
+      "largest_community": 18
+    },
+    {
+      "seed": 2,
+      "converged": true,
+      "iterations": 4,
+      "n_communities": 7,
+      "weighted_modularity": 0.7007243977111673,
+      "smallest_community": 8,
+      "largest_community": 18
+    },
+    {
+      "seed": 3,
+      "converged": true,
+      "iterations": 3,
+      "n_communities": 8,
+      "weighted_modularity": 0.7183923632757252,
+      "smallest_community": 6,
+      "largest_community": 10
+    },
+    {
+      "seed": 4,
+      "converged": true,
+      "iterations": 3,
+      "n_communities": 8,
+      "weighted_modularity": 0.7183923632757252,
+      "smallest_community": 6,
+      "largest_community": 10
+    }
+  ],
+  "selected_seed": 3,
+  "selection_reason": "highest weighted modularity among tested seeds",
+  "selected_weighted_modularity": 0.7183923632757252,
+  "n_skill_communities": 8,
+  "skill_community_sizes": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    9,
+    8,
+    6
+  ],
+  "visualization_only_weight_threshold": 541.0,
+  "visualization_only_quantile": 0.9,
+  "cv_internal_feature_statistics": {
+    "n_skills": {
+      "count": 10000.0,
+      "mean": 6.4888,
+      "std": 1.1208925907597043,
+      "min": 5.0,
+      "25%": 5.0,
+      "50%": 6.0,
+      "75%": 7.0,
+      "max": 8.0
+    },
+    "n_skill_communities": {
+      "count": 10000.0,
+      "mean": 1.5154,
+      "std": 0.858741278650541,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 2.0,
+      "max": 4.0
+    },
+    "dominant_skill_community_share": {
+      "count": 10000.0,
+      "mean": 0.9124435714285716,
+      "std": 0.1505034410035715,
+      "min": 0.3333333333333333,
+      "25%": 0.8571428571428571,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "skill_community_entropy": {
+      "count": 10000.0,
+      "mean": 0.2211727489301404,
+      "std": 0.36425465824476394,
+      "min": -0.0,
+      "25%": -0.0,
+      "50%": -0.0,
+      "75%": 0.410116318288409,
+      "max": 1.3321790402101223
+    },
+    "skill_community_entropy_normalized": {
+      "count": 10000.0,
+      "mean": 0.2294181939279182,
+      "std": 0.34457669898810184,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.5916727785823274,
+      "max": 0.9709505944546688
+    }
+  },
+  "assertions_passed": true,
+  "scope_confirmation": "No classification, link prediction, embeddings, or CV-Job graph reconstruction performed."
+}

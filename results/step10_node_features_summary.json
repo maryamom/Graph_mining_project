@@ -1,0 +1,185 @@
+{
+  "n_resumes": 10000,
+  "n_jobs": 2500,
+  "original_edges": 75000,
+  "enriched_edges": 80347,
+  "structural_features": [
+    "degree",
+    "bipartite_degree_centrality",
+    "pagerank",
+    "is_isolate",
+    "component_size"
+  ],
+  "resume_internal_features": [
+    "n_skills",
+    "n_skill_communities",
+    "dominant_skill_community",
+    "dominant_skill_community_count",
+    "dominant_skill_community_share",
+    "skill_community_entropy",
+    "skill_community_entropy_normalized"
+  ],
+  "n_tabular_resume_predictor_features": 14,
+  "n_tabular_job_predictor_features": 7,
+  "original_community_count": 37,
+  "enriched_community_count": 37,
+  "original_modularity": 0.8724577777777778,
+  "enriched_modularity": 0.872558416922816,
+  "enriched_community_selected_seed": 1,
+  "enriched_community_runs": [
+    {
+      "seed": 0,
+      "iterations": 11,
+      "converged": true,
+      "n_communities": 37,
+      "modularity": 0.8725581789913479,
+      "smallest_community": 1,
+      "largest_community": 1628
+    },
+    {
+      "seed": 1,
+      "iterations": 9,
+      "converged": true,
+      "n_communities": 37,
+      "modularity": 0.872558416922816,
+      "smallest_community": 1,
+      "largest_community": 1628
+    },
+    {
+      "seed": 2,
+      "iterations": 10,
+      "converged": true,
+      "n_communities": 37,
+      "modularity": 0.8725563155046544,
+      "smallest_community": 1,
+      "largest_community": 1628
+    },
+    {
+      "seed": 3,
+      "iterations": 24,
+      "converged": true,
+      "n_communities": 37,
+      "modularity": 0.8725582982668886,
+      "smallest_community": 1,
+      "largest_community": 1628
+    },
+    {
+      "seed": 4,
+      "iterations": 24,
+      "converged": true,
+      "n_communities": 37,
+      "modularity": 0.872558416922816,
+      "smallest_community": 1,
+      "largest_community": 1628
+    }
+  ],
+  "community_ARI": 0.9996356991010776,
+  "community_NMI": 0.9993636701407612,
+  "structural_comparison": [
+    {
+      "version": "original",
+      "node_type": "CV",
+      "degree_mean": 7.5,
+      "degree_median": 7.0,
+      "degree_min": 0,
+      "degree_max": 27,
+      "centrality_mean": 0.003,
+      "pagerank_mean": 5.244265136238163e-05,
+      "pagerank_median": 5.034472460374848e-05,
+      "isolates": 29
+    },
+    {
+      "version": "original",
+      "node_type": "Job",
+      "degree_mean": 30.0,
+      "degree_median": 30.0,
+      "degree_min": 30,
+      "degree_max": 30,
+      "centrality_mean": 0.003,
+      "pagerank_mean": 0.00019022939455047339,
+      "pagerank_median": 0.00018908340557682215,
+      "isolates": 0
+    },
+    {
+      "version": "enriched",
+      "node_type": "CV",
+      "degree_mean": 8.0347,
+      "degree_median": 7.0,
+      "degree_min": 0,
+      "degree_max": 58,
+      "centrality_mean": 0.0032138799999999997,
+      "pagerank_mean": 5.244265136238163e-05,
+      "pagerank_median": 4.798627007355027e-05,
+      "isolates": 29
+    },
+    {
+      "version": "enriched",
+      "node_type": "Job",
+      "degree_mean": 32.1388,
+      "degree_median": 32.0,
+      "degree_min": 30,
+      "degree_max": 38,
+      "centrality_mean": 0.0032138799999999997,
+      "pagerank_mean": 0.00019022939455047339,
+      "pagerank_median": 0.00018940708638468808,
+      "isolates": 0
+    }
+  ],
+  "delta_statistics": {
+    "CV": {
+      "fraction_degree_delta_zero": 0.84,
+      "fraction_degree_delta_positive": 0.16,
+      "mean_degree_delta": 0.5347,
+      "max_degree_delta": 41,
+      "mean_abs_pagerank_delta": 3.872387444635025e-06,
+      "max_abs_pagerank_delta": 0.00018903955044159048
+    },
+    "Job": {
+      "fraction_degree_delta_zero": 0.1072,
+      "fraction_degree_delta_positive": 0.8928,
+      "mean_degree_delta": 2.1388,
+      "max_degree_delta": 8,
+      "mean_abs_pagerank_delta": 5.1822898073394e-06,
+      "max_abs_pagerank_delta": 2.65175214501464e-05
+    }
+  },
+  "resume_safe_embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "job_safe_embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "resume_safe_text_fields": [
+    "role",
+    "years_experience",
+    "industry",
+    "education",
+    "skills",
+    "summary",
+    "experience_bullets"
+  ],
+  "resume_excluded_target_fields": [
+    "seniority"
+  ],
+  "job_safe_text_fields": [
+    "job_title",
+    "must_have_skills",
+    "nice_to_have_skills",
+    "description",
+    "responsibilities",
+    "requirements"
+  ],
+  "job_excluded_target_fields": [
+    "seniority",
+    "industry"
+  ],
+  "resume_embedding_seconds": 20.883080400002655,
+  "job_embedding_seconds": 6.320938299999398,
+  "step7_embeddings_preserved": true,
+  "step7_embedding_purpose": "link_prediction",
+  "step7_embeddings_unsafe_for_direct_target_classification": true,
+  "enriched_graph_indirect_target_leakage_risk": true,
+  "specialized_generalist_label_created": false,
+  "no_scaler_fitted": true,
+  "no_pca_fitted": true,
+  "classification_started": false,
+  "all_assertions_passed": true,
+  "runtime_seconds": 417.22633100000166
+}

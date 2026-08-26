@@ -1,0 +1,306 @@
+{
+  "method": "manual asynchronous label propagation",
+  "seeds_tested": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "max_iter": 100,
+  "selected_seed": 4,
+  "selection_reason": "highest standard modularity among tested seeds",
+  "selected_iterations": 21,
+  "selected_converged": true,
+  "n_communities": 37,
+  "modularity_manual": 0.8724577777777778,
+  "modularity_networkx": 0.8724577777777778,
+  "modularity_absolute_difference": 0.0,
+  "community_size_min": 1,
+  "community_size_median": 1.0,
+  "community_size_mean": 337.8378378378378,
+  "community_size_max": 1628,
+  "community_counts": [
+    {
+      "community_id": 0,
+      "size": 1628,
+      "n_cv": 1308,
+      "n_jobs": 320
+    },
+    {
+      "community_id": 1,
+      "size": 1571,
+      "n_cv": 1239,
+      "n_jobs": 332
+    },
+    {
+      "community_id": 2,
+      "size": 1565,
+      "n_cv": 1277,
+      "n_jobs": 288
+    },
+    {
+      "community_id": 3,
+      "size": 1562,
+      "n_cv": 1250,
+      "n_jobs": 312
+    },
+    {
+      "community_id": 4,
+      "size": 1559,
+      "n_cv": 1245,
+      "n_jobs": 314
+    },
+    {
+      "community_id": 5,
+      "size": 1550,
+      "n_cv": 1254,
+      "n_jobs": 296
+    },
+    {
+      "community_id": 6,
+      "size": 1531,
+      "n_cv": 1213,
+      "n_jobs": 318
+    },
+    {
+      "community_id": 7,
+      "size": 1505,
+      "n_cv": 1185,
+      "n_jobs": 320
+    },
+    {
+      "community_id": 8,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 9,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 10,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 11,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 12,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 13,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 14,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 15,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 16,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 17,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 18,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 19,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 20,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 21,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 22,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 23,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 24,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 25,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 26,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 27,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 28,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 29,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 30,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 31,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 32,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 33,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 34,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 35,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    },
+    {
+      "community_id": 36,
+      "size": 1,
+      "n_cv": 1,
+      "n_jobs": 0
+    }
+  ],
+  "runs": [
+    {
+      "seed": 0,
+      "iterations": 25,
+      "converged": true,
+      "n_communities": 37,
+      "modularity_manual": 0.8724555644444445,
+      "modularity_networkx": 0.8724555644444445,
+      "modularity_difference": 0.0,
+      "smallest_community": 1,
+      "largest_community": 1628
+    },
+    {
+      "seed": 1,
+      "iterations": 21,
+      "converged": true,
+      "n_communities": 37,
+      "modularity_manual": 0.8724552572444445,
+      "modularity_networkx": 0.8724552572444445,
+      "modularity_difference": 0.0,
+      "smallest_community": 1,
+      "largest_community": 1628
+    },
+    {
+      "seed": 2,
+      "iterations": 9,
+      "converged": true,
+      "n_communities": 37,
+      "modularity_manual": 0.8724554112,
+      "modularity_networkx": 0.8724554112,
+      "modularity_difference": 0.0,
+      "smallest_community": 1,
+      "largest_community": 1628
+    },
+    {
+      "seed": 3,
+      "iterations": 10,
+      "converged": true,
+      "n_communities": 37,
+      "modularity_manual": 0.8724574919111111,
+      "modularity_networkx": 0.8724574919111111,
+      "modularity_difference": 0.0,
+      "smallest_community": 1,
+      "largest_community": 1628
+    },
+    {
+      "seed": 4,
+      "iterations": 21,
+      "converged": true,
+      "n_communities": 37,
+      "modularity_manual": 0.8724577777777778,
+      "modularity_networkx": 0.8724577777777778,
+      "modularity_difference": 0.0,
+      "smallest_community": 1,
+      "largest_community": 1628
+    }
+  ],
+  "profile_minimum_size": 50,
+  "modularity_limit": "standard modularity uses a non-bipartite configuration-model reference"
+}

@@ -1,0 +1,37 @@
+{
+  "n_nodes": 12500,
+  "n_edges": 75000,
+  "n_cv": 10000,
+  "n_jobs": 2500,
+  "average_degree_global": 12.0,
+  "average_degree_cv": 7.5,
+  "average_degree_job": 30.0,
+  "min_degree_cv": 0,
+  "median_degree_cv": 7.0,
+  "max_degree_cv": 27,
+  "min_degree_job": 30,
+  "median_degree_job": 30.0,
+  "max_degree_job": 30,
+  "bipartite_density": 0.003,
+  "n_connected_components": 36,
+  "largest_component_size": 3102,
+  "largest_component_fraction": 0.24816,
+  "n_isolates": 29,
+  "n_isolated_cv": 29,
+  "n_isolated_jobs": 0,
+  "approx_shortest_path": {
+    "n_pairs": 100,
+    "seed": 42,
+    "mean": 4.38,
+    "median": 4.0,
+    "minimum": 2,
+    "maximum": 6
+  },
+  "pagerank_alpha": 0.85,
+  "pagerank_sum": 0.9999999999999999,
+  "betweenness_approximation": {
+    "k": 100,
+    "seed": 42,
+    "normalized": true
+  }
+}

@@ -1,0 +1,74 @@
+skill,skill_community,degree,weighted_degree
+A/B Testing,0,27,13923.0
+Account Management,1,9,4509.0
+Accounting,7,9,4603.0
+Agile,5,9,4724.0
+Analytics,5,9,4660.0
+Asana,2,9,4494.0
+Budgeting,7,9,4422.0
+CI/CD,3,9,4775.0
+CRM,1,9,4617.0
+Cash Flow,7,9,4505.0
+Closing,1,9,4398.0
+Communication,4,9,4484.0
+Content Marketing,0,9,4821.0
+Conversion Optimization,0,9,4683.0
+Copywriting,0,9,4664.0
+Cross-functional Coordination,2,9,4528.0
+Customer Satisfaction,4,9,4362.0
+Data Visualization,6,9,4637.0
+Databases,3,9,4821.0
+Discovery Calls,1,9,4589.0
+Docker,3,9,4819.0
+Documentation,4,9,4422.0
+ETL,6,9,4532.0
+Email Marketing,0,9,4663.0
+Escalations,4,9,4313.0
+Excel,6,18,8810.0
+Financial Modeling,7,9,4658.0
+Forecasting,1,18,9322.0
+Git,3,9,4851.0
+Google Ads,0,9,4684.0
+Intercom,4,9,4508.0
+Java,3,9,4836.0
+JavaScript,3,9,4963.0
+Jira,2,9,4361.0
+KPIs,2,17,9078.0
+Landing Pages,0,9,4728.0
+Lead Generation,1,9,4586.0
+Marketing Analytics,0,9,4636.0
+Meta Ads,0,9,4657.0
+Negotiation,1,9,4509.0
+OOP,3,9,4891.0
+Outbound Outreach,1,9,4597.0
+PRD,5,9,4654.0
+Pandas,6,9,4596.0
+Pipeline Management,1,9,4491.0
+Power BI,6,9,4736.0
+Prioritization,5,9,4837.0
+Process Improvement,2,9,4610.0
+Product Strategy,5,9,4718.0
+Project Planning,2,9,4471.0
+Prospecting,1,9,4676.0
+Python,3,18,9639.0
+REST APIs,3,9,4893.0
+Reporting,2,17,9147.0
+Risk Management,2,9,4365.0
+Roadmap,5,9,4677.0
+Root Cause Analysis,4,9,4537.0
+SEO,0,9,4634.0
+SLA,4,9,4360.0
+SQL,6,9,4587.0
+Scrum,5,9,4565.0
+Stakeholder Communication,2,9,4474.0
+Stakeholder Management,5,9,4604.0
+Statistics,6,9,4618.0
+Tableau,6,9,4821.0
+Ticketing,4,9,4406.0
+Timeline Management,2,9,4528.0
+Troubleshooting,4,9,4388.0
+Unit Testing,3,9,4846.0
+User Research,5,9,4762.0
+Valuation,7,9,4586.0
+Variance Analysis,7,9,4459.0
+Zendesk,4,9,4392.0

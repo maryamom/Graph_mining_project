@@ -1,0 +1,251 @@
+{
+  "methods": [
+    "Preferential Attachment",
+    "CN3 bipartite adapté",
+    "Adamic-Adar bipartite adapté",
+    "Katz tronqué L=5"
+  ],
+  "graph_source": "data/processed/cv_job_graph_link_train.pkl",
+  "n_train_graph_edges": 60000,
+  "n_val_pairs": 15000,
+  "n_test_pairs": 15000,
+  "lambda_max": 13.938126718702913,
+  "inverse_lambda_bound": 0.07174565278260438,
+  "beta_candidates": [
+    0.007174565278260438,
+    0.021523695834781312,
+    0.03587282639130219,
+    0.05022195694782306,
+    0.06457108750434394
+  ],
+  "beta_validation_results": [
+    {
+      "fraction_of_inverse_lambda": 0.1,
+      "beta": 0.007174565278260438,
+      "val_roc_auc": 0.9417352888888889,
+      "val_average_precision": 0.8954596880667307
+    },
+    {
+      "fraction_of_inverse_lambda": 0.3,
+      "beta": 0.021523695834781312,
+      "val_roc_auc": 0.9417352888888889,
+      "val_average_precision": 0.8954596880667307
+    },
+    {
+      "fraction_of_inverse_lambda": 0.5,
+      "beta": 0.03587282639130219,
+      "val_roc_auc": 0.9417278933333332,
+      "val_average_precision": 0.8954607907658254
+    },
+    {
+      "fraction_of_inverse_lambda": 0.7,
+      "beta": 0.05022195694782306,
+      "val_roc_auc": 0.9417795555555556,
+      "val_average_precision": 0.8954533529020006
+    },
+    {
+      "fraction_of_inverse_lambda": 0.9,
+      "beta": 0.06457108750434394,
+      "val_roc_auc": 0.9419311111111112,
+      "val_average_precision": 0.8955950028082202
+    }
+  ],
+  "selected_beta": 0.06457108750434394,
+  "beta_selection_split": "validation",
+  "beta_selection_metric": "ROC-AUC",
+  "katz_max_length": 5,
+  "continuous_metrics": {
+    "Preferential Attachment": {
+      "val_roc_auc": 0.5290800355555555,
+      "test_roc_auc": 0.5253032088888889,
+      "val_average_precision": 0.5158963190406811,
+      "test_average_precision": 0.5191502391226321
+    },
+    "CN3 bipartite adapté": {
+      "val_roc_auc": 0.8936044622222221,
+      "test_roc_auc": 0.8959144533333334,
+      "val_average_precision": 0.8523155837626689,
+      "test_average_precision": 0.8591597244877639
+    },
+    "Adamic-Adar bipartite adapté": {
+      "val_roc_auc": 0.8937105777777777,
+      "test_roc_auc": 0.8962565511111111,
+      "val_average_precision": 0.8527759878844041,
+      "test_average_precision": 0.8610615362618729
+    },
+    "Katz tronqué L=5": {
+      "val_roc_auc": 0.9419311111111112,
+      "test_roc_auc": 0.9445353155555557,
+      "val_average_precision": 0.8955950028082202,
+      "test_average_precision": 0.9032518768787314
+    }
+  },
+  "threshold_metrics": {
+    "Preferential Attachment": {
+      "selected_threshold": 18.0,
+      "validation_f1_at_selection": 0.6675567423230975,
+      "test_precision": 0.500533902829685,
+      "test_recall": 1.0,
+      "test_f1": 0.6671410780999822,
+      "test_accuracy": 0.5010666666666667,
+      "test_confusion_matrix": [
+        [
+          16,
+          7484
+        ],
+        [
+          0,
+          7500
+        ]
+      ]
+    },
+    "CN3 bipartite adapté": {
+      "selected_threshold": 1.0,
+      "validation_f1_at_selection": 0.8918089647812166,
+      "test_precision": 0.895096463022508,
+      "test_recall": 0.8908,
+      "test_f1": 0.8929430633520449,
+      "test_accuracy": 0.8932,
+      "test_confusion_matrix": [
+        [
+          6717,
+          783
+        ],
+        [
+          819,
+          6681
+        ]
+      ]
+    },
+    "Adamic-Adar bipartite adapté": {
+      "selected_threshold": 0.2969742043733701,
+      "validation_f1_at_selection": 0.8918684544059768,
+      "test_precision": 0.895096463022508,
+      "test_recall": 0.8908,
+      "test_f1": 0.8929430633520449,
+      "test_accuracy": 0.8932,
+      "test_confusion_matrix": [
+        [
+          6717,
+          783
+        ],
+        [
+          819,
+          6681
+        ]
+      ]
+    },
+    "Katz tronqué L=5": {
+      "selected_threshold": 5.5003026165908275e-05,
+      "validation_f1_at_selection": 0.9406742419486471,
+      "test_precision": 0.895170929954578,
+      "test_recall": 0.9985333333333334,
+      "test_f1": 0.9440312618177235,
+      "test_accuracy": 0.9408,
+      "test_confusion_matrix": [
+        [
+          6623,
+          877
+        ],
+        [
+          11,
+          7489
+        ]
+      ]
+    }
+  },
+  "zero_score_proportions": [
+    {
+      "split": "validation",
+      "score": "bipartite_cn3_score",
+      "label": 0,
+      "zero_fraction": 0.8924
+    },
+    {
+      "split": "validation",
+      "score": "bipartite_cn3_score",
+      "label": 1,
+      "zero_fraction": 0.10866666666666666
+    },
+    {
+      "split": "validation",
+      "score": "bipartite_adamic_adar_score",
+      "label": 0,
+      "zero_fraction": 0.8924
+    },
+    {
+      "split": "validation",
+      "score": "bipartite_adamic_adar_score",
+      "label": 1,
+      "zero_fraction": 0.10866666666666666
+    },
+    {
+      "split": "validation",
+      "score": "truncated_katz_score",
+      "label": 0,
+      "zero_fraction": 0.8490666666666666
+    },
+    {
+      "split": "validation",
+      "score": "truncated_katz_score",
+      "label": 1,
+      "zero_fraction": 0.0
+    },
+    {
+      "split": "test",
+      "score": "bipartite_cn3_score",
+      "label": 0,
+      "zero_fraction": 0.8956
+    },
+    {
+      "split": "test",
+      "score": "bipartite_cn3_score",
+      "label": 1,
+      "zero_fraction": 0.1092
+    },
+    {
+      "split": "test",
+      "score": "bipartite_adamic_adar_score",
+      "label": 0,
+      "zero_fraction": 0.8956
+    },
+    {
+      "split": "test",
+      "score": "bipartite_adamic_adar_score",
+      "label": 1,
+      "zero_fraction": 0.1092
+    },
+    {
+      "split": "test",
+      "score": "truncated_katz_score",
+      "label": 0,
+      "zero_fraction": 0.8565333333333334
+    },
+    {
+      "split": "test",
+      "score": "truncated_katz_score",
+      "label": 1,
+      "zero_fraction": 0.0
+    }
+  ],
+  "best_classical_method_by_test_roc_auc": "Katz tronqué L=5",
+  "sparse_matrix_nonzeros": {
+    "B": 60000,
+    "P_jobs": 313124,
+    "W3": 2773752,
+    "W5": 3829247,
+    "AA_bip": 2773752
+  },
+  "matrix_and_raw_score_seconds": 1.3362082000021474,
+  "total_notebook_computation_seconds_from_matrix_start": 4.902268400001049,
+  "bipartite_adaptations_confirmed": {
+    "common_neighbors": "length-3 walk count, not standard Common Neighbors",
+    "adamic_adar": "resume-projection aggregation weighted by shared-job degree, not direct CV-Job Adamic-Adar",
+    "katz": "truncated odd walks of lengths 3 and 5, not infinite Katz"
+  },
+  "anti_leakage_confirmed": true,
+  "step6_splits_reused_unchanged": true,
+  "test_used_for_hyperparameter_selection": false,
+  "semantic_scores_loaded": false,
+  "all_assertions_passed": true
+}

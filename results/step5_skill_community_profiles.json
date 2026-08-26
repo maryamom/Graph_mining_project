@@ -1,0 +1,431 @@
+[
+  {
+    "community_id": 0,
+    "n_skills": 10,
+    "skills": [
+      "A/B Testing",
+      "Content Marketing",
+      "Conversion Optimization",
+      "Copywriting",
+      "Email Marketing",
+      "Google Ads",
+      "Landing Pages",
+      "Marketing Analytics",
+      "Meta Ads",
+      "SEO"
+    ],
+    "top_skills_by_strength": [
+      {
+        "skill": "A/B Testing",
+        "strength": 13923.0
+      },
+      {
+        "skill": "Content Marketing",
+        "strength": 4821.0
+      },
+      {
+        "skill": "Landing Pages",
+        "strength": 4728.0
+      },
+      {
+        "skill": "Google Ads",
+        "strength": 4684.0
+      },
+      {
+        "skill": "Conversion Optimization",
+        "strength": 4683.0
+      },
+      {
+        "skill": "Copywriting",
+        "strength": 4664.0
+      },
+      {
+        "skill": "Email Marketing",
+        "strength": 4663.0
+      },
+      {
+        "skill": "Meta Ads",
+        "strength": 4657.0
+      },
+      {
+        "skill": "Marketing Analytics",
+        "strength": 4636.0
+      },
+      {
+        "skill": "SEO",
+        "strength": 4634.0
+      }
+    ]
+  },
+  {
+    "community_id": 1,
+    "n_skills": 10,
+    "skills": [
+      "Account Management",
+      "CRM",
+      "Closing",
+      "Discovery Calls",
+      "Forecasting",
+      "Lead Generation",
+      "Negotiation",
+      "Outbound Outreach",
+      "Pipeline Management",
+      "Prospecting"
+    ],
+    "top_skills_by_strength": [
+      {
+        "skill": "Forecasting",
+        "strength": 9322.0
+      },
+      {
+        "skill": "Prospecting",
+        "strength": 4676.0
+      },
+      {
+        "skill": "CRM",
+        "strength": 4617.0
+      },
+      {
+        "skill": "Outbound Outreach",
+        "strength": 4597.0
+      },
+      {
+        "skill": "Discovery Calls",
+        "strength": 4589.0
+      },
+      {
+        "skill": "Lead Generation",
+        "strength": 4586.0
+      },
+      {
+        "skill": "Account Management",
+        "strength": 4509.0
+      },
+      {
+        "skill": "Negotiation",
+        "strength": 4509.0
+      },
+      {
+        "skill": "Pipeline Management",
+        "strength": 4491.0
+      },
+      {
+        "skill": "Closing",
+        "strength": 4398.0
+      }
+    ]
+  },
+  {
+    "community_id": 2,
+    "n_skills": 10,
+    "skills": [
+      "Asana",
+      "Cross-functional Coordination",
+      "Jira",
+      "KPIs",
+      "Process Improvement",
+      "Project Planning",
+      "Reporting",
+      "Risk Management",
+      "Stakeholder Communication",
+      "Timeline Management"
+    ],
+    "top_skills_by_strength": [
+      {
+        "skill": "Reporting",
+        "strength": 9147.0
+      },
+      {
+        "skill": "KPIs",
+        "strength": 9078.0
+      },
+      {
+        "skill": "Process Improvement",
+        "strength": 4610.0
+      },
+      {
+        "skill": "Cross-functional Coordination",
+        "strength": 4528.0
+      },
+      {
+        "skill": "Timeline Management",
+        "strength": 4528.0
+      },
+      {
+        "skill": "Asana",
+        "strength": 4494.0
+      },
+      {
+        "skill": "Stakeholder Communication",
+        "strength": 4474.0
+      },
+      {
+        "skill": "Project Planning",
+        "strength": 4471.0
+      },
+      {
+        "skill": "Risk Management",
+        "strength": 4365.0
+      },
+      {
+        "skill": "Jira",
+        "strength": 4361.0
+      }
+    ]
+  },
+  {
+    "community_id": 3,
+    "n_skills": 10,
+    "skills": [
+      "CI/CD",
+      "Databases",
+      "Docker",
+      "Git",
+      "Java",
+      "JavaScript",
+      "OOP",
+      "Python",
+      "REST APIs",
+      "Unit Testing"
+    ],
+    "top_skills_by_strength": [
+      {
+        "skill": "Python",
+        "strength": 9639.0
+      },
+      {
+        "skill": "JavaScript",
+        "strength": 4963.0
+      },
+      {
+        "skill": "REST APIs",
+        "strength": 4893.0
+      },
+      {
+        "skill": "OOP",
+        "strength": 4891.0
+      },
+      {
+        "skill": "Git",
+        "strength": 4851.0
+      },
+      {
+        "skill": "Unit Testing",
+        "strength": 4846.0
+      },
+      {
+        "skill": "Java",
+        "strength": 4836.0
+      },
+      {
+        "skill": "Databases",
+        "strength": 4821.0
+      },
+      {
+        "skill": "Docker",
+        "strength": 4819.0
+      },
+      {
+        "skill": "CI/CD",
+        "strength": 4775.0
+      }
+    ]
+  },
+  {
+    "community_id": 4,
+    "n_skills": 10,
+    "skills": [
+      "Communication",
+      "Customer Satisfaction",
+      "Documentation",
+      "Escalations",
+      "Intercom",
+      "Root Cause Analysis",
+      "SLA",
+      "Ticketing",
+      "Troubleshooting",
+      "Zendesk"
+    ],
+    "top_skills_by_strength": [
+      {
+        "skill": "Root Cause Analysis",
+        "strength": 4537.0
+      },
+      {
+        "skill": "Intercom",
+        "strength": 4508.0
+      },
+      {
+        "skill": "Communication",
+        "strength": 4484.0
+      },
+      {
+        "skill": "Documentation",
+        "strength": 4422.0
+      },
+      {
+        "skill": "Ticketing",
+        "strength": 4406.0
+      },
+      {
+        "skill": "Zendesk",
+        "strength": 4392.0
+      },
+      {
+        "skill": "Troubleshooting",
+        "strength": 4388.0
+      },
+      {
+        "skill": "Customer Satisfaction",
+        "strength": 4362.0
+      },
+      {
+        "skill": "SLA",
+        "strength": 4360.0
+      },
+      {
+        "skill": "Escalations",
+        "strength": 4313.0
+      }
+    ]
+  },
+  {
+    "community_id": 5,
+    "n_skills": 9,
+    "skills": [
+      "Agile",
+      "Analytics",
+      "PRD",
+      "Prioritization",
+      "Product Strategy",
+      "Roadmap",
+      "Scrum",
+      "Stakeholder Management",
+      "User Research"
+    ],
+    "top_skills_by_strength": [
+      {
+        "skill": "Prioritization",
+        "strength": 4837.0
+      },
+      {
+        "skill": "User Research",
+        "strength": 4762.0
+      },
+      {
+        "skill": "Agile",
+        "strength": 4724.0
+      },
+      {
+        "skill": "Product Strategy",
+        "strength": 4718.0
+      },
+      {
+        "skill": "Roadmap",
+        "strength": 4677.0
+      },
+      {
+        "skill": "Analytics",
+        "strength": 4660.0
+      },
+      {
+        "skill": "PRD",
+        "strength": 4654.0
+      },
+      {
+        "skill": "Stakeholder Management",
+        "strength": 4604.0
+      },
+      {
+        "skill": "Scrum",
+        "strength": 4565.0
+      }
+    ]
+  },
+  {
+    "community_id": 6,
+    "n_skills": 8,
+    "skills": [
+      "Data Visualization",
+      "ETL",
+      "Excel",
+      "Pandas",
+      "Power BI",
+      "SQL",
+      "Statistics",
+      "Tableau"
+    ],
+    "top_skills_by_strength": [
+      {
+        "skill": "Excel",
+        "strength": 8810.0
+      },
+      {
+        "skill": "Tableau",
+        "strength": 4821.0
+      },
+      {
+        "skill": "Power BI",
+        "strength": 4736.0
+      },
+      {
+        "skill": "Data Visualization",
+        "strength": 4637.0
+      },
+      {
+        "skill": "Statistics",
+        "strength": 4618.0
+      },
+      {
+        "skill": "Pandas",
+        "strength": 4596.0
+      },
+      {
+        "skill": "SQL",
+        "strength": 4587.0
+      },
+      {
+        "skill": "ETL",
+        "strength": 4532.0
+      }
+    ]
+  },
+  {
+    "community_id": 7,
+    "n_skills": 6,
+    "skills": [
+      "Accounting",
+      "Budgeting",
+      "Cash Flow",
+      "Financial Modeling",
+      "Valuation",
+      "Variance Analysis"
+    ],
+    "top_skills_by_strength": [
+      {
+        "skill": "Financial Modeling",
+        "strength": 4658.0
+      },
+      {
+        "skill": "Accounting",
+        "strength": 4603.0
+      },
+      {
+        "skill": "Valuation",
+        "strength": 4586.0
+      },
+      {
+        "skill": "Cash Flow",
+        "strength": 4505.0
+      },
+      {
+        "skill": "Variance Analysis",
+        "strength": 4459.0
+      },
+      {
+        "skill": "Budgeting",
+        "strength": 4422.0
+      }
+    ]
+  }
+]

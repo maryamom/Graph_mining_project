@@ -1,0 +1,934 @@
+[
+  {
+    "community_id": 0,
+    "size": 1628,
+    "n_cv": 1308,
+    "n_jobs": 320,
+    "top_roles_cv": [
+      {
+        "value": "Backend Engineer",
+        "count": 453
+      },
+      {
+        "value": "Software Engineer",
+        "count": 432
+      },
+      {
+        "value": "Full Stack Engineer",
+        "count": 423
+      }
+    ],
+    "top_job_titles": [
+      {
+        "value": "Backend Engineer",
+        "count": 117
+      },
+      {
+        "value": "Full Stack Engineer",
+        "count": 108
+      },
+      {
+        "value": "Software Engineer",
+        "count": 95
+      }
+    ],
+    "top_industries": [
+      {
+        "value": "Retail",
+        "count": 181
+      },
+      {
+        "value": "SaaS",
+        "count": 176
+      },
+      {
+        "value": "EdTech",
+        "count": 174
+      },
+      {
+        "value": "Logistics",
+        "count": 167
+      },
+      {
+        "value": "Cybersecurity",
+        "count": 164
+      }
+    ],
+    "top_seniority": [
+      {
+        "value": "Junior",
+        "count": 548
+      },
+      {
+        "value": "Senior",
+        "count": 545
+      },
+      {
+        "value": "Mid",
+        "count": 535
+      }
+    ],
+    "top_resume_skills": [
+      {
+        "value": "JavaScript",
+        "count": 863
+      },
+      {
+        "value": "Python",
+        "count": 863
+      },
+      {
+        "value": "OOP",
+        "count": 856
+      },
+      {
+        "value": "REST APIs",
+        "count": 855
+      },
+      {
+        "value": "Java",
+        "count": 851
+      }
+    ],
+    "top_job_must_have_skills": [
+      {
+        "value": "Databases",
+        "count": 140
+      },
+      {
+        "value": "CI/CD",
+        "count": 139
+      },
+      {
+        "value": "Git",
+        "count": 137
+      },
+      {
+        "value": "Unit Testing",
+        "count": 136
+      },
+      {
+        "value": "Docker",
+        "count": 130
+      }
+    ]
+  },
+  {
+    "community_id": 1,
+    "size": 1571,
+    "n_cv": 1239,
+    "n_jobs": 332,
+    "top_roles_cv": [
+      {
+        "value": "Financial Analyst",
+        "count": 431
+      },
+      {
+        "value": "FP&A Analyst",
+        "count": 416
+      },
+      {
+        "value": "Junior Accountant",
+        "count": 391
+      },
+      {
+        "value": "Program Coordinator",
+        "count": 1
+      }
+    ],
+    "top_job_titles": [
+      {
+        "value": "Junior Accountant",
+        "count": 118
+      },
+      {
+        "value": "FP&A Analyst",
+        "count": 110
+      },
+      {
+        "value": "Financial Analyst",
+        "count": 101
+      },
+      {
+        "value": "Project Manager",
+        "count": 2
+      },
+      {
+        "value": "Program Coordinator",
+        "count": 1
+      }
+    ],
+    "top_industries": [
+      {
+        "value": "SaaS",
+        "count": 179
+      },
+      {
+        "value": "E-commerce",
+        "count": 163
+      },
+      {
+        "value": "FinTech",
+        "count": 162
+      },
+      {
+        "value": "Retail",
+        "count": 158
+      },
+      {
+        "value": "EdTech",
+        "count": 157
+      }
+    ],
+    "top_seniority": [
+      {
+        "value": "Mid",
+        "count": 540
+      },
+      {
+        "value": "Junior",
+        "count": 528
+      },
+      {
+        "value": "Senior",
+        "count": 503
+      }
+    ],
+    "top_resume_skills": [
+      {
+        "value": "Reporting",
+        "count": 821
+      },
+      {
+        "value": "Financial Modeling",
+        "count": 819
+      },
+      {
+        "value": "Forecasting",
+        "count": 814
+      },
+      {
+        "value": "Accounting",
+        "count": 813
+      },
+      {
+        "value": "Valuation",
+        "count": 805
+      }
+    ],
+    "top_job_must_have_skills": [
+      {
+        "value": "Valuation",
+        "count": 146
+      },
+      {
+        "value": "Reporting",
+        "count": 141
+      },
+      {
+        "value": "Budgeting",
+        "count": 135
+      },
+      {
+        "value": "Excel",
+        "count": 133
+      },
+      {
+        "value": "Cash Flow",
+        "count": 133
+      }
+    ]
+  },
+  {
+    "community_id": 2,
+    "size": 1565,
+    "n_cv": 1277,
+    "n_jobs": 288,
+    "top_roles_cv": [
+      {
+        "value": "Product Manager",
+        "count": 450
+      },
+      {
+        "value": "Associate Product Manager",
+        "count": 436
+      },
+      {
+        "value": "Technical Product Manager",
+        "count": 391
+      }
+    ],
+    "top_job_titles": [
+      {
+        "value": "Technical Product Manager",
+        "count": 104
+      },
+      {
+        "value": "Associate Product Manager",
+        "count": 96
+      },
+      {
+        "value": "Product Manager",
+        "count": 88
+      }
+    ],
+    "top_industries": [
+      {
+        "value": "Gaming",
+        "count": 179
+      },
+      {
+        "value": "E-commerce",
+        "count": 168
+      },
+      {
+        "value": "Travel",
+        "count": 162
+      },
+      {
+        "value": "SaaS",
+        "count": 158
+      },
+      {
+        "value": "FinTech",
+        "count": 155
+      }
+    ],
+    "top_seniority": [
+      {
+        "value": "Mid",
+        "count": 531
+      },
+      {
+        "value": "Junior",
+        "count": 530
+      },
+      {
+        "value": "Senior",
+        "count": 504
+      }
+    ],
+    "top_resume_skills": [
+      {
+        "value": "Prioritization",
+        "count": 855
+      },
+      {
+        "value": "Agile",
+        "count": 837
+      },
+      {
+        "value": "Product Strategy",
+        "count": 836
+      },
+      {
+        "value": "User Research",
+        "count": 833
+      },
+      {
+        "value": "A/B Testing",
+        "count": 825
+      }
+    ],
+    "top_job_must_have_skills": [
+      {
+        "value": "User Research",
+        "count": 128
+      },
+      {
+        "value": "Analytics",
+        "count": 119
+      },
+      {
+        "value": "Roadmap",
+        "count": 117
+      },
+      {
+        "value": "PRD",
+        "count": 116
+      },
+      {
+        "value": "Product Strategy",
+        "count": 114
+      }
+    ]
+  },
+  {
+    "community_id": 3,
+    "size": 1562,
+    "n_cv": 1250,
+    "n_jobs": 312,
+    "top_roles_cv": [
+      {
+        "value": "BI Analyst",
+        "count": 426
+      },
+      {
+        "value": "Business Analyst",
+        "count": 422
+      },
+      {
+        "value": "Data Analyst",
+        "count": 402
+      }
+    ],
+    "top_job_titles": [
+      {
+        "value": "Business Analyst",
+        "count": 120
+      },
+      {
+        "value": "BI Analyst",
+        "count": 103
+      },
+      {
+        "value": "Data Analyst",
+        "count": 89
+      }
+    ],
+    "top_industries": [
+      {
+        "value": "Retail",
+        "count": 179
+      },
+      {
+        "value": "SaaS",
+        "count": 166
+      },
+      {
+        "value": "Gaming",
+        "count": 163
+      },
+      {
+        "value": "Healthcare",
+        "count": 162
+      },
+      {
+        "value": "Travel",
+        "count": 160
+      }
+    ],
+    "top_seniority": [
+      {
+        "value": "Mid",
+        "count": 538
+      },
+      {
+        "value": "Junior",
+        "count": 521
+      },
+      {
+        "value": "Senior",
+        "count": 503
+      }
+    ],
+    "top_resume_skills": [
+      {
+        "value": "Tableau",
+        "count": 850
+      },
+      {
+        "value": "Power BI",
+        "count": 835
+      },
+      {
+        "value": "Python",
+        "count": 830
+      },
+      {
+        "value": "Data Visualization",
+        "count": 814
+      },
+      {
+        "value": "Statistics",
+        "count": 809
+      }
+    ],
+    "top_job_must_have_skills": [
+      {
+        "value": "A/B Testing",
+        "count": 146
+      },
+      {
+        "value": "Power BI",
+        "count": 135
+      },
+      {
+        "value": "Data Visualization",
+        "count": 134
+      },
+      {
+        "value": "Excel",
+        "count": 132
+      },
+      {
+        "value": "Python",
+        "count": 125
+      }
+    ]
+  },
+  {
+    "community_id": 4,
+    "size": 1559,
+    "n_cv": 1245,
+    "n_jobs": 314,
+    "top_roles_cv": [
+      {
+        "value": "Sales Representative",
+        "count": 458
+      },
+      {
+        "value": "Business Development Manager",
+        "count": 406
+      },
+      {
+        "value": "Account Executive",
+        "count": 381
+      }
+    ],
+    "top_job_titles": [
+      {
+        "value": "Sales Representative",
+        "count": 114
+      },
+      {
+        "value": "Account Executive",
+        "count": 108
+      },
+      {
+        "value": "Business Development Manager",
+        "count": 92
+      }
+    ],
+    "top_industries": [
+      {
+        "value": "Travel",
+        "count": 168
+      },
+      {
+        "value": "Logistics",
+        "count": 163
+      },
+      {
+        "value": "E-commerce",
+        "count": 162
+      },
+      {
+        "value": "Gaming",
+        "count": 159
+      },
+      {
+        "value": "FinTech",
+        "count": 159
+      }
+    ],
+    "top_seniority": [
+      {
+        "value": "Junior",
+        "count": 538
+      },
+      {
+        "value": "Mid",
+        "count": 525
+      },
+      {
+        "value": "Senior",
+        "count": 496
+      }
+    ],
+    "top_resume_skills": [
+      {
+        "value": "Forecasting",
+        "count": 833
+      },
+      {
+        "value": "Prospecting",
+        "count": 825
+      },
+      {
+        "value": "CRM",
+        "count": 816
+      },
+      {
+        "value": "Discovery Calls",
+        "count": 812
+      },
+      {
+        "value": "Lead Generation",
+        "count": 810
+      }
+    ],
+    "top_job_must_have_skills": [
+      {
+        "value": "Forecasting",
+        "count": 145
+      },
+      {
+        "value": "Outbound Outreach",
+        "count": 139
+      },
+      {
+        "value": "Account Management",
+        "count": 130
+      },
+      {
+        "value": "Prospecting",
+        "count": 128
+      },
+      {
+        "value": "CRM",
+        "count": 127
+      }
+    ]
+  },
+  {
+    "community_id": 5,
+    "size": 1550,
+    "n_cv": 1254,
+    "n_jobs": 296,
+    "top_roles_cv": [
+      {
+        "value": "Marketing Manager",
+        "count": 454
+      },
+      {
+        "value": "Content Marketer",
+        "count": 409
+      },
+      {
+        "value": "Performance Marketer",
+        "count": 391
+      }
+    ],
+    "top_job_titles": [
+      {
+        "value": "Content Marketer",
+        "count": 106
+      },
+      {
+        "value": "Performance Marketer",
+        "count": 97
+      },
+      {
+        "value": "Marketing Manager",
+        "count": 93
+      }
+    ],
+    "top_industries": [
+      {
+        "value": "Cybersecurity",
+        "count": 176
+      },
+      {
+        "value": "SaaS",
+        "count": 165
+      },
+      {
+        "value": "Retail",
+        "count": 164
+      },
+      {
+        "value": "Travel",
+        "count": 161
+      },
+      {
+        "value": "Healthcare",
+        "count": 154
+      }
+    ],
+    "top_seniority": [
+      {
+        "value": "Senior",
+        "count": 531
+      },
+      {
+        "value": "Junior",
+        "count": 530
+      },
+      {
+        "value": "Mid",
+        "count": 489
+      }
+    ],
+    "top_resume_skills": [
+      {
+        "value": "Content Marketing",
+        "count": 845
+      },
+      {
+        "value": "A/B Testing",
+        "count": 829
+      },
+      {
+        "value": "Landing Pages",
+        "count": 824
+      },
+      {
+        "value": "Google Ads",
+        "count": 819
+      },
+      {
+        "value": "Copywriting",
+        "count": 816
+      }
+    ],
+    "top_job_must_have_skills": [
+      {
+        "value": "Content Marketing",
+        "count": 126
+      },
+      {
+        "value": "SEO",
+        "count": 125
+      },
+      {
+        "value": "Google Ads",
+        "count": 121
+      },
+      {
+        "value": "Marketing Analytics",
+        "count": 121
+      },
+      {
+        "value": "Copywriting",
+        "count": 121
+      }
+    ]
+  },
+  {
+    "community_id": 6,
+    "size": 1531,
+    "n_cv": 1213,
+    "n_jobs": 318,
+    "top_roles_cv": [
+      {
+        "value": "Operations Manager",
+        "count": 424
+      },
+      {
+        "value": "Project Manager",
+        "count": 396
+      },
+      {
+        "value": "Program Coordinator",
+        "count": 392
+      },
+      {
+        "value": "FP&A Analyst",
+        "count": 1
+      }
+    ],
+    "top_job_titles": [
+      {
+        "value": "Project Manager",
+        "count": 128
+      },
+      {
+        "value": "Program Coordinator",
+        "count": 106
+      },
+      {
+        "value": "Operations Manager",
+        "count": 83
+      },
+      {
+        "value": "FP&A Analyst",
+        "count": 1
+      }
+    ],
+    "top_industries": [
+      {
+        "value": "Retail",
+        "count": 173
+      },
+      {
+        "value": "Logistics",
+        "count": 168
+      },
+      {
+        "value": "Gaming",
+        "count": 161
+      },
+      {
+        "value": "FinTech",
+        "count": 161
+      },
+      {
+        "value": "Healthcare",
+        "count": 160
+      }
+    ],
+    "top_seniority": [
+      {
+        "value": "Junior",
+        "count": 534
+      },
+      {
+        "value": "Senior",
+        "count": 503
+      },
+      {
+        "value": "Mid",
+        "count": 494
+      }
+    ],
+    "top_resume_skills": [
+      {
+        "value": "Process Improvement",
+        "count": 809
+      },
+      {
+        "value": "Reporting",
+        "count": 795
+      },
+      {
+        "value": "Timeline Management",
+        "count": 792
+      },
+      {
+        "value": "Stakeholder Communication",
+        "count": 791
+      },
+      {
+        "value": "KPIs",
+        "count": 791
+      }
+    ],
+    "top_job_must_have_skills": [
+      {
+        "value": "Project Planning",
+        "count": 145
+      },
+      {
+        "value": "Stakeholder Communication",
+        "count": 138
+      },
+      {
+        "value": "Jira",
+        "count": 131
+      },
+      {
+        "value": "Timeline Management",
+        "count": 130
+      },
+      {
+        "value": "Risk Management",
+        "count": 128
+      }
+    ]
+  },
+  {
+    "community_id": 7,
+    "size": 1505,
+    "n_cv": 1185,
+    "n_jobs": 320,
+    "top_roles_cv": [
+      {
+        "value": "Technical Support Specialist",
+        "count": 413
+      },
+      {
+        "value": "Customer Support Specialist",
+        "count": 388
+      },
+      {
+        "value": "Customer Success Associate",
+        "count": 384
+      }
+    ],
+    "top_job_titles": [
+      {
+        "value": "Technical Support Specialist",
+        "count": 112
+      },
+      {
+        "value": "Customer Support Specialist",
+        "count": 105
+      },
+      {
+        "value": "Customer Success Associate",
+        "count": 103
+      }
+    ],
+    "top_industries": [
+      {
+        "value": "Healthcare",
+        "count": 170
+      },
+      {
+        "value": "FinTech",
+        "count": 160
+      },
+      {
+        "value": "Retail",
+        "count": 160
+      },
+      {
+        "value": "EdTech",
+        "count": 155
+      },
+      {
+        "value": "Logistics",
+        "count": 152
+      }
+    ],
+    "top_seniority": [
+      {
+        "value": "Mid",
+        "count": 528
+      },
+      {
+        "value": "Junior",
+        "count": 492
+      },
+      {
+        "value": "Senior",
+        "count": 485
+      }
+    ],
+    "top_resume_skills": [
+      {
+        "value": "Root Cause Analysis",
+        "count": 794
+      },
+      {
+        "value": "Intercom",
+        "count": 791
+      },
+      {
+        "value": "Communication",
+        "count": 782
+      },
+      {
+        "value": "Zendesk",
+        "count": 773
+      },
+      {
+        "value": "Troubleshooting",
+        "count": 771
+      }
+    ],
+    "top_job_must_have_skills": [
+      {
+        "value": "Intercom",
+        "count": 143
+      },
+      {
+        "value": "SLA",
+        "count": 137
+      },
+      {
+        "value": "Ticketing",
+        "count": 131
+      },
+      {
+        "value": "Communication",
+        "count": 130
+      },
+      {
+        "value": "Customer Satisfaction",
+        "count": 129
+      }
+    ]
+  }
+]

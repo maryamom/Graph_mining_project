@@ -1,0 +1,31 @@
+section,task,method,metric,value
+link_prediction,test,Katz tronqué L=5,roc_auc,0.9445353155555556
+link_prediction,test,Katz tronqué L=5,average_precision,0.9032518768787314
+link_prediction,test,Katz tronqué L=5,f1,0.9440312618177236
+link_prediction,test,Adamic-Adar bipartite adapté,roc_auc,0.8962567555555554
+link_prediction,test,Adamic-Adar bipartite adapté,average_precision,0.8610630725359962
+link_prediction,test,Adamic-Adar bipartite adapté,f1,0.8929430633520449
+link_prediction,test,CN3 bipartite adapté,roc_auc,0.8959144533333334
+link_prediction,test,CN3 bipartite adapté,average_precision,0.8591597244877639
+link_prediction,test,CN3 bipartite adapté,f1,0.8929430633520449
+link_prediction,test,Semantic cosine,roc_auc,0.8676272177777777
+link_prediction,test,Semantic cosine,average_precision,0.840386137126912
+link_prediction,test,Semantic cosine,f1,0.8161802355350742
+link_prediction,test,Preferential Attachment,roc_auc,0.5253032088888889
+link_prediction,test,Preferential Attachment,average_precision,0.5191502391226321
+link_prediction,test,Preferential Attachment,f1,0.6671410780999822
+classification,CV seniority,Logistic Regression / SEMANTIC / invariant,test_macro_f1,0.8769031897315346
+classification,CV seniority,Logistic Regression / SEMANTIC / invariant,test_accuracy,0.8773333333333333
+classification,CV specialization proxy,Logistic Regression / STRUCTURAL / original,test_macro_f1,0.9393256564667998
+classification,CV specialization proxy,Logistic Regression / STRUCTURAL / original,test_accuracy,0.9453333333333334
+classification,Job seniority,Random Forest / STRUCTURAL / original,test_macro_f1,0.2989121877549229
+classification,Job seniority,Random Forest / STRUCTURAL / original,test_accuracy,0.2986666666666667
+classification,Job industry,Logistic Regression / SEMANTIC / invariant,test_macro_f1,1.0
+classification,Job industry,Logistic Regression / SEMANTIC / invariant,test_accuracy,1.0
+classification,Job specialization proxy,Logistic Regression / STRUCTURAL / original,test_macro_f1,0.8981531776208582
+classification,Job specialization proxy,Logistic Regression / STRUCTURAL / original,test_accuracy,0.9146666666666666
+graph,global,observed,bipartite_density,0.003
+graph,global,observed,global_modularity,0.8724577777777778
+graph,global,observed,skill_modularity,0.7183923632757252
+graph,global,observed,community_ARI,0.9996356991010776
+graph,global,observed,community_NMI,0.9993636701407612

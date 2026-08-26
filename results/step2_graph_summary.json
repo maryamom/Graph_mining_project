@@ -1,0 +1,10 @@
+{
+  "n_nodes": 12500,
+  "n_edges": 75000,
+  "n_cv_nodes": 10000,
+  "n_job_nodes": 2500,
+  "is_bipartite": true,
+  "n_self_loops": 0,
+  "n_cv_cv_edges": 0,
+  "n_job_job_edges": 0
+}

@@ -1,0 +1,9 @@
+task,feature_family,original_model,enriched_model,delta_macro_f1,delta_accuracy
+CV seniority,ALL_SAFE,Logistic Regression,Logistic Regression,0.0,0.0
+CV seniority,STRUCTURAL,Random Forest,Logistic Regression,-0.03550250377948394,-0.033333333333333326
+CV specialization proxy,STRUCTURAL,Logistic Regression,Logistic Regression,0.0,0.0
+Job industry,ALL_SAFE,Logistic Regression,Logistic Regression,0.0,0.0
+Job industry,STRUCTURAL,Random Forest,Random Forest,0.06830827795637856,0.06933333333333333
+Job seniority,ALL_SAFE,Random Forest,Random Forest,0.006921488883186111,0.007999999999999952
+Job seniority,STRUCTURAL,Random Forest,Random Forest,0.0013487685417430395,0.0026666666666666505
+Job specialization proxy,STRUCTURAL,Logistic Regression,Logistic Regression,0.0,0.0

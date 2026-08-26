@@ -1,0 +1,473 @@
+{
+  "dataset_summary": {
+    "dataset_id": "michaelozon/candidate-matching-synthetic",
+    "n_resumes": 10000,
+    "n_jobs": 2500,
+    "n_match_records": 2500,
+    "n_positive_pairs": 75000,
+    "n_unique_roles": 24,
+    "n_industries": 10,
+    "n_unique_resume_skills": 73,
+    "n_unique_job_skills": 73,
+    "missing_values_total": 0,
+    "duplicate_rows_total": 0,
+    "invalid_job_references": 0,
+    "invalid_resume_references": 0,
+    "duplicate_positive_pairs": 0
+  },
+  "structural_summary": {
+    "n_nodes": 12500,
+    "n_edges": 75000,
+    "n_cv": 10000,
+    "n_jobs": 2500,
+    "average_degree_global": 12.0,
+    "average_degree_cv": 7.5,
+    "average_degree_job": 30.0,
+    "min_degree_cv": 0,
+    "median_degree_cv": 7.0,
+    "max_degree_cv": 27,
+    "min_degree_job": 30,
+    "median_degree_job": 30.0,
+    "max_degree_job": 30,
+    "bipartite_density": 0.003,
+    "n_connected_components": 36,
+    "largest_component_size": 3102,
+    "largest_component_fraction": 0.24816,
+    "n_isolates": 29,
+    "n_isolated_cv": 29,
+    "n_isolated_jobs": 0,
+    "approx_shortest_path": {
+      "n_pairs": 100,
+      "seed": 42,
+      "mean": 4.38,
+      "median": 4.0,
+      "minimum": 2,
+      "maximum": 6
+    },
+    "pagerank_alpha": 0.85,
+    "pagerank_sum": 0.9999999999999999,
+    "betweenness_approximation": {
+      "k": 100,
+      "seed": 42,
+      "normalized": true
+    }
+  },
+  "global_community_summary": {
+    "count": 37,
+    "modularity": 0.8724577777777778
+  },
+  "skill_community_summary": {
+    "skills": 73,
+    "communities": 8,
+    "weighted_modularity": 0.7183923632757252
+  },
+  "link_prediction_best_method": {
+    "method": "Katz tronqué L=5",
+    "roc_auc": 0.9445353155555556,
+    "average_precision": 0.9032518768787314,
+    "f1": 0.9440312618177236
+  },
+  "semantic_vs_structural_summary": {
+    "validation": {
+      "spearman_rho": 0.62808536767108,
+      "pvalue": 0.0
+    },
+    "test": {
+      "spearman_rho": 0.6356324686617917,
+      "pvalue": 0.0
+    }
+  },
+  "realistic_ranking_summary": {
+    "selected_k": 50,
+    "semantic": {
+      "precision_at_k": 0.002838119017894299,
+      "recall_at_k": 0.04362618816426557,
+      "hit_rate_at_k": 0.1344153141905951,
+      "n_jobs_evaluated": 2403
+    },
+    "katz": {
+      "precision_at_k": 0.0032542655014565127,
+      "recall_at_k": 0.04992337620302664,
+      "hit_rate_at_k": 0.1489804411152726,
+      "n_jobs_evaluated": 2403
+    },
+    "consensus": {
+      "n_predictions": 5024,
+      "n_hits": 18,
+      "consensus_precision": 0.0035828025477707007,
+      "consensus_recall": 0.0024,
+      "consensus_f1": 0.002874480996486745,
+      "coverage": 0.8876404494382022,
+      "n_jobs_evaluated": 2403
+    }
+  },
+  "enrichment_summary": {
+    "observed_edges_before": 75000.0,
+    "predicted_edges_added": 5347.0,
+    "edges_after": 80347.0,
+    "density_before": 0.003,
+    "density_after": 0.00321388,
+    "consensus_test_precision": 0.0035828025477707007,
+    "consensus_test_recall": 0.0024,
+    "components_before": 36.0,
+    "components_after": 36.0,
+    "isolates_before": 29.0,
+    "isolates_after": 29.0
+  },
+  "classification_best_results": [
+    {
+      "task": "CV seniority",
+      "method": "Logistic Regression",
+      "feature_family": "SEMANTIC",
+      "graph_version": "invariant",
+      "validation_macro_f1": 0.8681133836191236,
+      "validation_balanced_accuracy": 0.8686430659603704,
+      "test_macro_f1": 0.8769031897315346,
+      "test_accuracy": 0.8773333333333333,
+      "test_balanced_accuracy": 0.8776744821775878
+    },
+    {
+      "task": "CV specialization proxy",
+      "method": "Logistic Regression",
+      "feature_family": "STRUCTURAL",
+      "graph_version": "original",
+      "validation_macro_f1": 0.9393819920161648,
+      "validation_balanced_accuracy": 0.9600389863547758,
+      "test_macro_f1": 0.9393256564667998,
+      "test_accuracy": 0.9453333333333334,
+      "test_balanced_accuracy": 0.9594714634687986
+    },
+    {
+      "task": "Job seniority",
+      "method": "Random Forest",
+      "feature_family": "STRUCTURAL",
+      "graph_version": "original",
+      "validation_macro_f1": 0.3553576116845611,
+      "validation_balanced_accuracy": 0.3568412428310329,
+      "test_macro_f1": 0.2989121877549229,
+      "test_accuracy": 0.2986666666666667,
+      "test_balanced_accuracy": 0.2993234493836874
+    },
+    {
+      "task": "Job industry",
+      "method": "Logistic Regression",
+      "feature_family": "SEMANTIC",
+      "graph_version": "invariant",
+      "validation_macro_f1": 1.0,
+      "validation_balanced_accuracy": 1.0,
+      "test_macro_f1": 1.0,
+      "test_accuracy": 1.0,
+      "test_balanced_accuracy": 1.0
+    },
+    {
+      "task": "Job specialization proxy",
+      "method": "Logistic Regression",
+      "feature_family": "STRUCTURAL",
+      "graph_version": "original",
+      "validation_macro_f1": 0.8359845785006155,
+      "validation_balanced_accuracy": 0.9035714285714286,
+      "test_macro_f1": 0.8981531776208582,
+      "test_accuracy": 0.9146666666666666,
+      "test_balanced_accuracy": 0.942652329749104
+    }
+  ],
+  "classification_feature_family_comparison": [
+    {
+      "task": "CV seniority",
+      "feature_family": "ALL_SAFE",
+      "graph_version": "original",
+      "method": "Logistic Regression",
+      "accuracy": 0.8806666666666667,
+      "balanced_accuracy": 0.8809924145327872,
+      "macro_f1": 0.8801516760675813
+    },
+    {
+      "task": "CV seniority",
+      "feature_family": "ALL_SAFE",
+      "graph_version": "enriched",
+      "method": "Logistic Regression",
+      "accuracy": 0.8806666666666667,
+      "balanced_accuracy": 0.8809924145327872,
+      "macro_f1": 0.8801516760675813
+    },
+    {
+      "task": "CV seniority",
+      "feature_family": "SEMANTIC",
+      "graph_version": "invariant",
+      "method": "Logistic Regression",
+      "accuracy": 0.8773333333333333,
+      "balanced_accuracy": 0.8776744821775878,
+      "macro_f1": 0.8769031897315346
+    },
+    {
+      "task": "CV seniority",
+      "feature_family": "STRUCTURAL",
+      "graph_version": "original",
+      "method": "Random Forest",
+      "accuracy": 0.3473333333333333,
+      "balanced_accuracy": 0.347309534266056,
+      "macro_f1": 0.3471907589841778
+    },
+    {
+      "task": "CV seniority",
+      "feature_family": "INTERNAL_SKILLS",
+      "graph_version": "invariant",
+      "method": "Logistic Regression",
+      "accuracy": 0.316,
+      "balanced_accuracy": 0.3155371371209881,
+      "macro_f1": 0.3122476140845022
+    },
+    {
+      "task": "CV seniority",
+      "feature_family": "STRUCTURAL",
+      "graph_version": "enriched",
+      "method": "Logistic Regression",
+      "accuracy": 0.314,
+      "balanced_accuracy": 0.3140803181175852,
+      "macro_f1": 0.3116882552046938
+    },
+    {
+      "task": "CV specialization proxy",
+      "feature_family": "STRUCTURAL",
+      "graph_version": "original",
+      "method": "Logistic Regression",
+      "accuracy": 0.9453333333333334,
+      "balanced_accuracy": 0.9594714634687986,
+      "macro_f1": 0.9393256564667998
+    },
+    {
+      "task": "CV specialization proxy",
+      "feature_family": "STRUCTURAL",
+      "graph_version": "enriched",
+      "method": "Logistic Regression",
+      "accuracy": 0.9453333333333334,
+      "balanced_accuracy": 0.9594714634687986,
+      "macro_f1": 0.9393256564667998
+    },
+    {
+      "task": "Job industry",
+      "feature_family": "SEMANTIC",
+      "graph_version": "invariant",
+      "method": "Logistic Regression",
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    {
+      "task": "Job industry",
+      "feature_family": "ALL_SAFE",
+      "graph_version": "original",
+      "method": "Logistic Regression",
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    {
+      "task": "Job industry",
+      "feature_family": "ALL_SAFE",
+      "graph_version": "enriched",
+      "method": "Logistic Regression",
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    {
+      "task": "Job industry",
+      "feature_family": "STRUCTURAL",
+      "graph_version": "enriched",
+      "method": "Random Forest",
+      "accuracy": 0.1333333333333333,
+      "balanced_accuracy": 0.1360276974695913,
+      "macro_f1": 0.1317141381503447
+    },
+    {
+      "task": "Job industry",
+      "feature_family": "STRUCTURAL",
+      "graph_version": "original",
+      "method": "Random Forest",
+      "accuracy": 0.064,
+      "balanced_accuracy": 0.0638052651395549,
+      "macro_f1": 0.0634058601939661
+    },
+    {
+      "task": "Job seniority",
+      "feature_family": "ALL_SAFE",
+      "graph_version": "enriched",
+      "method": "Random Forest",
+      "accuracy": 0.344,
+      "balanced_accuracy": 0.3437691231751027,
+      "macro_f1": 0.3420252651489563
+    },
+    {
+      "task": "Job seniority",
+      "feature_family": "ALL_SAFE",
+      "graph_version": "original",
+      "method": "Random Forest",
+      "accuracy": 0.336,
+      "balanced_accuracy": 0.3358070526269778,
+      "macro_f1": 0.3351037762657702
+    },
+    {
+      "task": "Job seniority",
+      "feature_family": "SEMANTIC",
+      "graph_version": "invariant",
+      "method": "Logistic Regression",
+      "accuracy": 0.3146666666666666,
+      "balanced_accuracy": 0.3138092545239968,
+      "macro_f1": 0.3127619165582874
+    },
+    {
+      "task": "Job seniority",
+      "feature_family": "STRUCTURAL",
+      "graph_version": "enriched",
+      "method": "Random Forest",
+      "accuracy": 0.3013333333333333,
+      "balanced_accuracy": 0.3020771865984789,
+      "macro_f1": 0.3002609562966659
+    },
+    {
+      "task": "Job seniority",
+      "feature_family": "STRUCTURAL",
+      "graph_version": "original",
+      "method": "Random Forest",
+      "accuracy": 0.2986666666666667,
+      "balanced_accuracy": 0.2993234493836874,
+      "macro_f1": 0.2989121877549229
+    },
+    {
+      "task": "Job specialization proxy",
+      "feature_family": "STRUCTURAL",
+      "graph_version": "original",
+      "method": "Logistic Regression",
+      "accuracy": 0.9146666666666666,
+      "balanced_accuracy": 0.942652329749104,
+      "macro_f1": 0.8981531776208582
+    },
+    {
+      "task": "Job specialization proxy",
+      "feature_family": "STRUCTURAL",
+      "graph_version": "enriched",
+      "method": "Logistic Regression",
+      "accuracy": 0.9146666666666666,
+      "balanced_accuracy": 0.942652329749104,
+      "macro_f1": 0.8981531776208582
+    }
+  ],
+  "enrichment_classification_effect": [
+    {
+      "task": "CV seniority",
+      "feature_family": "ALL_SAFE",
+      "original_model": "Logistic Regression",
+      "enriched_model": "Logistic Regression",
+      "delta_macro_f1": 0.0,
+      "delta_accuracy": 0.0
+    },
+    {
+      "task": "CV seniority",
+      "feature_family": "STRUCTURAL",
+      "original_model": "Random Forest",
+      "enriched_model": "Logistic Regression",
+      "delta_macro_f1": -0.03550250377948394,
+      "delta_accuracy": -0.033333333333333326
+    },
+    {
+      "task": "CV specialization proxy",
+      "feature_family": "STRUCTURAL",
+      "original_model": "Logistic Regression",
+      "enriched_model": "Logistic Regression",
+      "delta_macro_f1": 0.0,
+      "delta_accuracy": 0.0
+    },
+    {
+      "task": "Job industry",
+      "feature_family": "ALL_SAFE",
+      "original_model": "Logistic Regression",
+      "enriched_model": "Logistic Regression",
+      "delta_macro_f1": 0.0,
+      "delta_accuracy": 0.0
+    },
+    {
+      "task": "Job industry",
+      "feature_family": "STRUCTURAL",
+      "original_model": "Random Forest",
+      "enriched_model": "Random Forest",
+      "delta_macro_f1": 0.06830827795637856,
+      "delta_accuracy": 0.06933333333333333
+    },
+    {
+      "task": "Job seniority",
+      "feature_family": "ALL_SAFE",
+      "original_model": "Random Forest",
+      "enriched_model": "Random Forest",
+      "delta_macro_f1": 0.006921488883186111,
+      "delta_accuracy": 0.007999999999999952
+    },
+    {
+      "task": "Job seniority",
+      "feature_family": "STRUCTURAL",
+      "original_model": "Random Forest",
+      "enriched_model": "Random Forest",
+      "delta_macro_f1": 0.0013487685417430395,
+      "delta_accuracy": 0.0026666666666666505
+    },
+    {
+      "task": "Job specialization proxy",
+      "feature_family": "STRUCTURAL",
+      "original_model": "Logistic Regression",
+      "enriched_model": "Logistic Regression",
+      "delta_macro_f1": 0.0,
+      "delta_accuracy": 0.0
+    }
+  ],
+  "specialization_summary": [
+    {
+      "specialization_label": "generalist",
+      "n": 3159,
+      "degree_mean": 7.6581196581196584,
+      "degree_median": 7.0,
+      "pagerank_mean": 5.3397436329830344e-05,
+      "pagerank_median": 5.25587712234213e-05,
+      "community_size_mean": 1563.7986704653372,
+      "n_skill_communities_mean": 2.6315289648622984,
+      "entropy_mean": 0.7001353242486243,
+      "proportion": 0.3159
+    },
+    {
+      "specialization_label": "specialized",
+      "n": 6841,
+      "degree_mean": 7.426984359011841,
+      "degree_median": 7.0,
+      "pagerank_mean": 5.200175592133853e-05,
+      "pagerank_median": 5.013979700636101e-05,
+      "community_size_mean": 1551.2454319543926,
+      "n_skill_communities_mean": 1.0,
+      "entropy_mean": 0.0,
+      "proportion": 0.6841
+    }
+  ],
+  "atypical_profiles_summary": {
+    "n_examples": 15,
+    "rule": "within-community degree quantiles or enrichment degree gain"
+  },
+  "principal_limitations": [
+    "synthetic dataset",
+    "balanced benchmark base-rate gap",
+    "unknown pairs are not certain negatives",
+    "truncated/adapted bipartite scores",
+    "specialization proxy",
+    "predicted edges are not ground truth",
+    "indirect target leakage risk",
+    "LPA nondeterminism",
+    "standard modularity on bipartite graph",
+    "real-world generalization unproven"
+  ],
+  "main_recommendations": [
+    "combine structural candidate generation and semantic evidence",
+    "evaluate per-job ranking",
+    "keep observed and predicted edges separate",
+    "validate on real temporal and cold-start data"
+  ],
+  "models_retrained_in_step12": false,
+  "all_steps_completed": true,
+  "all_assertions_passed": true
+}

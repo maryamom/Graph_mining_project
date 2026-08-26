@@ -1,0 +1,69 @@
+{
+  "method": "manual asynchronous label propagation",
+  "seeds_tested": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "max_iter": 100,
+  "selected_seed": 1,
+  "selection_reason": "highest standard modularity among tested seeds",
+  "selected_iterations": 9,
+  "selected_converged": true,
+  "n_communities": 37,
+  "modularity": 0.872558416922816,
+  "community_size_min": 1,
+  "community_size_median": 1.0,
+  "community_size_mean": 337.8378378378378,
+  "community_size_max": 1628,
+  "runs": [
+    {
+      "seed": 0,
+      "iterations": 11,
+      "converged": true,
+      "n_communities": 37,
+      "modularity": 0.8725581789913479,
+      "smallest_community": 1,
+      "largest_community": 1628
+    },
+    {
+      "seed": 1,
+      "iterations": 9,
+      "converged": true,
+      "n_communities": 37,
+      "modularity": 0.872558416922816,
+      "smallest_community": 1,
+      "largest_community": 1628
+    },
+    {
+      "seed": 2,
+      "iterations": 10,
+      "converged": true,
+      "n_communities": 37,
+      "modularity": 0.8725563155046544,
+      "smallest_community": 1,
+      "largest_community": 1628
+    },
+    {
+      "seed": 3,
+      "iterations": 24,
+      "converged": true,
+      "n_communities": 37,
+      "modularity": 0.8725582982668886,
+      "smallest_community": 1,
+      "largest_community": 1628
+    },
+    {
+      "seed": 4,
+      "iterations": 24,
+      "converged": true,
+      "n_communities": 37,
+      "modularity": 0.872558416922816,
+      "smallest_community": 1,
+      "largest_community": 1628
+    }
+  ],
+  "modularity_limit": "standard modularity on a bipartite graph"
+}

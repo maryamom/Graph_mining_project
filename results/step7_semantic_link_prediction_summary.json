@@ -1,0 +1,103 @@
+{
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "n_resume_embeddings": 10000,
+  "n_job_embeddings": 2500,
+  "normalize_embeddings": true,
+  "resume_encoding_seconds": 22.817147500001738,
+  "job_encoding_seconds": 6.79828070000076,
+  "total_encoding_seconds": 29.615428200002498,
+  "train_roc_auc": 0.8630791105555555,
+  "val_roc_auc": 0.8622918222222222,
+  "test_roc_auc": 0.8676272177777777,
+  "train_average_precision": 0.8331050183334643,
+  "val_average_precision": 0.8362779604863896,
+  "test_average_precision": 0.840386137126912,
+  "selected_threshold": 0.5488626184463501,
+  "threshold_selection_split": "validation",
+  "threshold_selection_metric": "F1",
+  "threshold_grid_size": 1001,
+  "val_precision": 0.771132280236344,
+  "val_recall": 0.8526666666666667,
+  "val_f1": 0.8098524662825303,
+  "val_confusion_matrix": [
+    [
+      5602,
+      1898
+    ],
+    [
+      1105,
+      6395
+    ]
+  ],
+  "test_precision": 0.7848350566223535,
+  "test_recall": 0.8501333333333333,
+  "test_f1": 0.8161802355350742,
+  "test_accuracy": 0.8085333333333333,
+  "test_confusion_matrix": [
+    [
+      5752,
+      1748
+    ],
+    [
+      1124,
+      6376
+    ]
+  ],
+  "val_score_statistics": {
+    "0": {
+      "count": 7500,
+      "mean": 0.5054044127464294,
+      "median": 0.4891471266746521,
+      "std": 0.09163883328437805,
+      "min": 0.2876059412956238,
+      "q05": 0.38483930230140684,
+      "q25": 0.4426659345626831,
+      "q75": 0.5498310774564743,
+      "q95": 0.6890301674604414,
+      "max": 0.9055119752883911
+    },
+    "1": {
+      "count": 7500,
+      "mean": 0.6520318388938904,
+      "median": 0.653986930847168,
+      "std": 0.09716003388166428,
+      "min": 0.345285564661026,
+      "q05": 0.4843590021133423,
+      "q25": 0.5888997316360474,
+      "q75": 0.718952476978302,
+      "q95": 0.8057051092386245,
+      "max": 0.9126219153404236
+    }
+  },
+  "test_score_statistics": {
+    "0": {
+      "count": 7500,
+      "mean": 0.5019141435623169,
+      "median": 0.48446589708328247,
+      "std": 0.09084872901439667,
+      "min": 0.2622361183166504,
+      "q05": 0.3852032795548439,
+      "q25": 0.44089923053979874,
+      "q75": 0.5439960211515427,
+      "q95": 0.6835662096738812,
+      "max": 0.9122127890586853
+    },
+    "1": {
+      "count": 7500,
+      "mean": 0.6508735418319702,
+      "median": 0.6515787839889526,
+      "std": 0.09752093255519867,
+      "min": 0.3351876139640808,
+      "q05": 0.48398818373680114,
+      "q25": 0.5851449519395828,
+      "q75": 0.7205165177583694,
+      "q95": 0.8059352576732632,
+      "max": 0.9162832498550415
+    }
+  },
+  "step6_split_reused_unchanged": true,
+  "score_interpretation": "cosine similarity score, not a calibrated probability",
+  "all_assertions_passed": true,
+  "scope_confirmation": "No structural link-prediction method was executed."
+}
