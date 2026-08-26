@@ -2,7 +2,7 @@
 
 Projet académique de Graph Mining modélisant le recrutement par un graphe biparti entre CV et offres d’emploi.
 
-**Auteurs :** Mariem Omrani et Anas Cherni — 2026.
+**Auteurs :** Mariem Omrani et Anas Cherni .
 
 ## Objectifs
 
