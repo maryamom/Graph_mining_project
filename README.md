@@ -1,4 +1,4 @@
-# Projet M2 — Graph Mining CV–Job
+#  Graph Mining CV–Job
 
 Projet académique de Graph Mining modélisant le recrutement par un graphe biparti entre CV et offres d’emploi.
 
